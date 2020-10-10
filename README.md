@@ -1,1 +1,1 @@
-# Grupas 'fotoaparats' projekts - 'Saimniecīsko darbu uzskaites sistēmas'
+# Grupas 'fotoaparats' projekts - 'Saimniecisko darbu uzskaites sistēmas'
