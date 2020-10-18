@@ -1,0 +1,210 @@
+.col-md-12 {
+    position: absolute;
+    width: 100%;
+    }
+
+.row{
+        margin: 0 auto;
+        margin-top: 10vh;
+        width: 634px;
+    height: 163px;
+    }
+
+.group1 {
+
+    display: block;
+    width: 185px;
+    height: 163px;
+    position: relative;
+    }
+
+.stradnieks {
+        width: 185px;
+        height: 163px;
+        position: left;
+        }
+
+.group2{
+    display: block;
+    text-align: right;
+    padding-top: 70px;
+    padding-left: 220px;
+    position: relative;
+}
+
+.lietotajs{
+    font-size: 36px;
+    text-align: right;
+}
+
+.logout {
+    border-color: #5D576B;
+    width: 72px;
+    height: 25px;
+    background:  #5D576B;
+    font-size: 12px;
+    }
+
+.problem_form_container{
+    margin: 0 auto;
+    width: 650px;
+    height: 100%;
+}
+
+.x{
+    margin: 0 auto;
+    position: relative;
+    width: 634px;
+    height: 70px;
+}
+
+.y{
+    top:10px;
+position: relative;
+    margin: 0 auto;
+    width: 634px;
+    height: 70px; 
+}
+
+.dropdown{
+    color: #969696;
+    font-size: 36px;
+    justify-content: center;
+      align-items: center;
+      background: #FFFFFF;
+      border-color: #FFFFFF;
+      border-width: 0px;
+      width: 634px;
+      height: 70px;
+}
+
+.z{
+    top: 20px;
+    position: relative;
+    margin: 0 auto;
+    width: 634px;
+    height: 188px; 
+}
+.text{
+    color: #969696;
+    font-size: 36px;
+      background: #FFFFFF;
+      border-color: #FFFFFF;
+      border-width: 0px;
+      width: 634px;
+      height: 188px;
+}
+
+.text1{
+    padding-left: 10px;
+    background: #FFFFFF;
+    border-color: #FFFFFF;
+    border-width: 0px;
+    width: 634px;
+    height: 188px;
+}
+
+.w{
+    top: 30px;
+    position: relative;
+    margin: 0 auto;
+    width: 634px;
+    height: 89px; 
+}
+
+.submit {
+    margin: 0 auto;
+    width: 634px;
+height: 89px;
+background: #703242;
+    border-width: 0px;
+      justify-content: center;
+      align-items: center;
+    font-size: 36px;
+    color: #A0D9CB;
+    font-weight: bold;
+}
+
+.group3{
+    margin: 0 auto;
+    top: 58px;
+    position: relative;
+    text-align: left;
+    width: 1684px;
+    height: 100%;
+}
+
+.saraksts {
+    border-spacing: 0 5px;
+    border-collapse: separate;
+}
+
+.saraksts th {
+    font-size: 24px;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.saraksts tr td{
+    padding: 20px;
+}
+
+.saraksts thead tr {
+    height: 68px;
+    line-height: 24px;
+    background:#5D576B;
+    color: #FFFFFF;
+
+}
+
+.saraksts tbody tr {
+    height: 68px;
+    line-height: 24px;
+font-size: 18px;
+}
+
+
+
+.pabeigts {
+    background:#31D45F;
+}
+
+.nepabeigts{
+    background: #FF9494;
+}
+
+.editb, .binb{
+    background: transparent;
+    border-width: 0px;
+    width: 30px;
+    height: 30px;
+}
+
+.editi, .bini {
+    width: 30px;
+    height: 30px;
+    }
+
+.k1{
+    width: 174.5px;
+}
+
+.k2{
+    width: 192px;
+}
+
+.k3{
+    width: 506px;
+}
+
+.k4{
+    width: 689px;
+}
+
+.k5{
+    width: 61px;
+}
+
+.k6{
+    width: 61px;
+}
