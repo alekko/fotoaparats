@@ -19,10 +19,10 @@
     }
 
 .stradnieks {
-        width: 185px;
-        height: 163px;
-        position: left;
-        }
+    width: 185px;
+    height: 163px;
+    position: left;
+}
 
 .group2{
     display: block;
@@ -63,7 +63,7 @@
 position: relative;
     margin: 0 auto;
     width: 634px;
-    height: 70px; 
+    height: 70px;
 }
 
 .dropdown{
@@ -83,7 +83,7 @@ position: relative;
     position: relative;
     margin: 0 auto;
     width: 634px;
-    height: 188px; 
+    height: 188px;
 }
 .text{
     color: #969696;
@@ -109,7 +109,7 @@ position: relative;
     position: relative;
     margin: 0 auto;
     width: 634px;
-    height: 89px; 
+    height: 89px;
 }
 
 .submit {
@@ -123,15 +123,6 @@ background: #703242;
     font-size: 36px;
     color: #A0D9CB;
     font-weight: bold;
-}
-
-.group3{
-    margin: 0 auto;
-    top: 58px;
-    position: relative;
-    text-align: left;
-    width: 1684px;
-    height: 100%;
 }
 
 .saraksts {
@@ -160,10 +151,8 @@ background: #703242;
 .saraksts tbody tr {
     height: 68px;
     line-height: 24px;
-font-size: 18px;
+    font-size: 18px;
 }
-
-
 
 .pabeigts {
     background:#31D45F;
@@ -183,28 +172,4 @@ font-size: 18px;
 .editi, .bini {
     width: 30px;
     height: 30px;
-    }
-
-.k1{
-    width: 174.5px;
-}
-
-.k2{
-    width: 192px;
-}
-
-.k3{
-    width: 506px;
-}
-
-.k4{
-    width: 689px;
-}
-
-.k5{
-    width: 61px;
-}
-
-.k6{
-    width: 61px;
 }
