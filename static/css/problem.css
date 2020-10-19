@@ -1,27 +1,27 @@
 .col-md-12 {
     position: absolute;
     width: 100%;
-    }
+}
 
 .row{
     margin: 0 auto;
     margin-top: 10vh;
     width: 634px;
     height: 163px;
-    }
+}
 
 .attels {
     display: block;
     width: 185px;
     height: 163px;
     position: relative;
-    }
+}
 
 .stradnieks {
     width: 185px;
     height: 163px;
     position: left;
-    }
+}
 
 .user{
     display: block;
@@ -29,12 +29,12 @@
     padding-top: 70px;
     padding-left: 220px;
     position: relative;
-    }
+}
 
 .lietotajs{
     font-size: 36px;
     text-align: right;
-    }   
+}   
 
 .logout {
     border-color: #5D576B;
@@ -42,20 +42,20 @@
     height: 25px;
     background:  #5D576B;
     font-size: 12px;
-    }
+}
 
 .problem_form_container{
     margin: 0 auto;
     width: 650px;
     height: 100%;
-    }
+}
 
 .kabinets{
     margin: 0 auto;
     position: relative;
     width: 634px;
     height: 70px;
-    }
+}
 
 .darbinieks{
     top:10px;
@@ -63,7 +63,7 @@
     margin: 0 auto;
     width: 634px;
     height: 70px;
-    }
+}
 
 .dropdown{
     color: #969696;
@@ -75,7 +75,7 @@
     border-width: 0px;
     width: 634px;
     height: 70px;
-    }
+}
 
 .problema{
     top: 20px;
@@ -83,7 +83,7 @@
     margin: 0 auto;
     width: 634px;
     height: 188px;
-    }
+}
 
 .text{
     color: #969696;
@@ -102,7 +102,7 @@
     border-width: 0px;
     width: 634px;
     height: 188px;
-    }
+}
 
 .iesniegt{
     top: 30px;
@@ -110,7 +110,7 @@
     margin: 0 auto;
     width: 634px;
     height: 89px;
-    }
+}
 
 .submit {
     margin: 0 auto;
@@ -123,35 +123,35 @@
     font-size: 36px;
     color: #A0D9CB;
     font-weight: bold;
-    }
+}
 
 .saraksts {
     border-spacing: 0 5px;
     border-collapse: separate;
-    }
+}
 
 .saraksts th {
     font-size: 24px;
     font-weight: 500;
     padding: 20px;
-    }
+}
 
 .saraksts tr td{
     padding: 20px;
-    }
+}
 
 .saraksts thead tr {
     height: 68px;
     line-height: 24px;
     background:#5D576B;
     color: #FFFFFF;
-    }
+}
 
 .saraksts tbody tr {
     height: 68px;
     line-height: 24px;
     font-size: 18px;
-    }
+}
 
 .pabeigts {
     background:#31D45F;
@@ -159,16 +159,16 @@
 
 .nepabeigts{
     background: #FF9494;
-    }
+}
 
 .editb, .binb{
     background: transparent;
     border-width: 0px;
     width: 30px;
     height: 30px;
-    }
+}
 
 .editimg, .binimg {
     width: 30px;
     height: 30px;
-    }
+}

@@ -1,7 +1,7 @@
 .col-md-12 {
   position: absolute;
   width: 100%;
-  }
+}
 
 .nosaukums{
   margin-top: 10vh;
@@ -9,38 +9,38 @@
   color: #703242;
   font-size: 60px;
   font-weight: 700;
-  } 
+} 
 
 .h1{
   font-size: 60px;
   font-weight: 700;
-  }
+}
 
 .attels {
   margin: 0 auto;
   margin-top: 10vh;
   width: 540px;
-  }
+}
     
 .stradnieks {
   position: center;
   width: 540px;
   height: 480px;
-  }
+}
     
 .login_form_container {
   margin: 0 auto;
   width: 540px;
   height: 272px;
   background: #703242;
-  }
+}
     
 .parole_form{
   margin: 0 auto;
   padding: 35px;
   width: 540px;
   height: 136px;	
-  }
+}
     
 .parole {
   margin: 0 auto;
@@ -52,14 +52,14 @@
   justify-content: center;
   align-items: center;
   color: #BDBDBD;
-  }
+}
 
 .parole1 {
   width: 430px;
   height: 83px;
   background: #FFFFFF;
   padding-left: 10px;
-  }
+}
 
 .login_form{
   margin: 0 auto;
@@ -69,7 +69,7 @@
   display: block;
   justify-content: center;
   align-items: center;
-  }
+}
     
 .login {
   border-color:#47484D;
@@ -82,4 +82,4 @@
   background: #47484D;
   font-size: 36px;
   color: #FFFFFF;
-  }
+}
