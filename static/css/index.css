@@ -1,13 +1,14 @@
-.col-md-12 {
-    position: absolute;
-    width: 100%;
-    }
+.col-md-12{
+  position: absolute;
+  width: 100%;
+}
+
 .nosaukums{
-margin-top: 10vh;
-text-align: center;
-color: #703242;
-font-size: 60px;
-font-weight: 700;
+  margin-top: 10vh;
+  text-align: center;
+  color: #703242;
+  font-size: 60px;
+  font-weight: 700;
 } 
 
 .h1{
@@ -15,71 +16,70 @@ font-weight: 700;
   font-weight: 700;
 }
 
-    .group1 {
-    margin: 0 auto;
-    margin-top: 10vh;
-    width: 540px;
-    }
+.attels{
+  margin: 0 auto;
+  margin-top: 10vh;
+  width: 540px;
+}
     
-    .stradnieks {
-    position: center;
-    width: 540px;
-    height: 480px;
-    }
+.stradnieks{
+  position: center;
+  width: 540px;
+  height: 480px;
+}
     
-    .login_form_container {
-        
-    margin: 0 auto;
-    width: 540px;
-    height: 272px;
-    background: #703242;
-    }
+.login_form_container{
+  margin: 0 auto;
+  width: 540px;
+  height: 272px;
+  background: #703242;
+}
     
-    .x{
-        margin: 0 auto;
-        padding: 35px;
-    width: 540px;
-    height: 136px;	
-    }
+.parole_form{
+  margin: 0 auto;
+  padding: 35px;
+  width: 540px;
+  height: 136px;	
+}
     
-    .parole {
-    margin: 0 auto;
-    width: 430px;
-    height: 83px;
-    background: #FFFFFF;
-    font-size: 36px;
-    display: flex;
-    justify-content: center;
-      align-items: center;
-    color: #BDBDBD;
-    }
+.parole{
+  margin: 0 auto;
+  width: 430px;
+  height: 83px;
+  background: #FFFFFF;
+  font-size: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #BDBDBD;
+}
 
-    .parole1 {
-      width: 430px;
-      height: 83px;
-      background: #FFFFFF;
-      padding-left: 10px;
-      }
+.parole1{
+  width: 430px;
+  height: 83px;
+  background: #FFFFFF;
+  padding-left: 10px;
+}
 
-    .y{
-        margin: 0 auto;
-        padding: 17.5px;
-    width: 540px;
-    height: 136px;
-      display: block;
-      justify-content: center;
-      align-items: center;
-    }
+.login_form{
+  margin: 0 auto;
+  padding: 17.5px;
+  width: 540px;
+  height: 136px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
     
-    .login {
-    border-color:#47484D;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    margin: 0 auto;
-    width: 430px;
-    height: 83px;
-    background: #47484D;
-    font-size: 36px;
-    color: #FFFFFF;
-    }
+.login{
+  border-color:#47484D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 430px;
+  height: 83px;
+  background: #47484D;
+  font-size: 36px;
+  color: #FFFFFF;
+}
