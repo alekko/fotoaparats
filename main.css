@@ -4,32 +4,17 @@ html, body {
   font-family: 'Roboto', sans-serif;
     }
 
-
-    .col-md-12 {
-      position: absolute;
-      width: 100%;
-  }
-  
-  .row {
-      margin: 0 auto;
-      margin-left: 10vh;
-      margin-top: 1vh;
-      width: 634px;
-      height: 163px;
-  } 
-  
-
-  .attels {  
+  .attels {
     display: block;
     width: 185px;
     height: 163px;
     position: relative;
   }
-  
+
   .ingus{
-    position: absolute;
-    width: 217px;
-    height: 42px;
+    /*position: absolute;*/
+/*    width: 217px;
+    height: 42px;*/
 
     font-family: Roboto;
     font-style: normal;
@@ -39,18 +24,18 @@ html, body {
 
     color: #5D576B;
   }
-  
+
   .saraksts {
       border-spacing: 0 5px;
       border-collapse: separate;
   }
-  
+
   .saraksts th {
       font-size: 24px;
       font-weight: 500;
       padding: 20px;
   }
-  
+
   .saraksts tr td {
       padding: 20px;
   }
@@ -60,7 +45,7 @@ html, body {
     font-weight: 500;
     padding: 20px;
 }
-  
+
   .tabulasgalva thead tr {
     height: 168px;
     line-height: 24px;
@@ -74,28 +59,28 @@ html, body {
       background:#5D576B;
       color: #FFFFFF;
   }
-  
+
   .saraksts tbody tr {
       height: 68px;
       line-height: 24px;
       font-size: 18px;
   }
-  
+
   .pabeigts {
       background:#31D45F;
   }
-  
+
   .nepabeigts {
       background: #FF9494;
   }
-  
+
   .editb, .binb{
       background: transparent;
       border-width: 0px;
       width: 30px;
       height: 30px;
   }
-  
+
   .editimg, .binimg {
       width: 30px;
       height: 30px;
