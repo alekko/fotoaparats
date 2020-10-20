@@ -1,0 +1,99 @@
+/* PABEIGTIE DARBI */
+.pab-darbi
+{
+/*position: absolute;
+top: 50px;
+left: 363px;
+width: 283px;
+height: 42px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+
+color: #008066;
+*/
+position: absolute;
+top: 50px;
+width: 283px;
+height: 42px;
+left: 363px;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+
+color: #008066;
+}
+
+/* Rectangle 101 */
+.tabula1
+{
+position: absolute;
+top: 112px;
+width: 684px;
+height: 68px;
+left: 90px;
+
+background: #5D576B;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 28px;
+
+color: #FFFFFF;
+}
+/* tabulas otra rinda */
+.otrarinda
+{
+   position: absolute;
+    top: 180px;
+    left: 90px;
+    width: 684px;
+    height: 68px;
+    
+    background: #31D45F;
+}
+
+
+.exit-button {
+    position: fixed;
+    top: 48px;
+    right: 500px;
+    width: 72px;
+    height: 25px;
+
+    padding: 2px 24px;
+    border: none;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 300;
+    color: #fff;
+    background: #5D576B;
+   
+    transition: all ease-in-out .25s;
+}
+
+html, body{
+    background: #A0D9CB;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+
+.image
+   {
+    top: 180px;
+    left: 200px;
+    width: 100px;
+    height: 100px;
+   }
+   .pabeigts
+   {
+    background:#31D45F;
+   }
