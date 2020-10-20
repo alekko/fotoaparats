@@ -11,68 +11,79 @@
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
   <script src='main.js'></script>
 </head>
 
-
-  <body>
-      <div class="row">
-        <div class="col-md-10">
-          <div class="attels">
-            <img src="./static/images//stradnieks.svg" class="stradnieks" />
-          </div> 
-        </div>
-        <div class="col-md-2">
-          <tr class="ingus">
-            <th>Ingus Zariņš</th>
-          </tr>
-          <tr>
-
-          </tr>
-        </div>
+<body>
+  <div class='container'>
+    <div class="table-responsive mt-5"></div>
+    <div class="row">
+      <div class="col-md-9">
+        <img src="./static/images/stradnieks.svg" class="attels" />
       </div>
-      
-    <div class="col-md-12">
-      <div class="table-responsive mt-5">
-        
-        <table class="table saraksts">
-          <thead>
-            <tr>
-              <th>DATUMS</th>
-              <th>KABINETS</th>
-              <th>KAM UZDOTS</th>
-              <th> APRAKSTS</th>
-              <th></th>
-              <th></th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr class="nepabeigts">
-              <td>10-10-2020</td>
-              <td>234</td>
-              <td>Elektriķis</td>
-              <td>Nedeg apgaismojums pie tāfeles (nav lampiņu)</td>
-              <td><button class="editb"><img src="./images/edit.svg" class="editimg" /></button></td>
-              <td><button class="binb"><img src="./images/bin.svg" class="biniimg" /></button></td>
-            </tr>
-            <tr class="pabeigts">
-              <td>10-09-2020</td>
-              <td>4507</td>
-              <td>Elektriķis</td>
-              <td>Kabinetā nedeg 4 spuldzes</td>
-              <td><button class="editb"><img src="./images/edit.svg" class="editimg" /></button></td>
-              <td><button class="binb"><img src="./images/bin.svg" class="binimg" /></button></td>
-            </tr>
-          </tbody>
-        </table>
+
+      <div class="col-md-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="ingus">
+                <p>Ingus Zariņš</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12">
+              <p>(SAIMNIEKS)</p>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-8">
+              <button class="poga1">PIEVIENOT/LABOT</button>
+            </div>
+            <div class="col-md-4">
+              <button class="poga2">IZIET</button>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </body>
-  
 
+    <table class="table saraksts">
+      <thead>
+        <tr>
+          <th>DATUMS</th>
+          <th>KABINETS</th>
+          <th>KAM UZDOTS</th>
+          <th> APRAKSTS</th>
+          <th></th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="nepabeigts">
+          <td>10-10-2020</td>
+          <td>234</td>
+          <td>Elektriķis</td>
+          <td>Nedeg apgaismojums pie tāfeles (nav lampiņu)</td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr class="pabeigts">
+          <td>10-09-2020</td>
+          <td>4507</td>
+          <td>Elektriķis</td>
+          <td>Kabinetā nedeg 4 spuldzes</td>
+          <td></td>
+          <td><button class="refreshb"><img src="./static/images/refresh.png" class="refreshimg" /></button></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
 
 </html>
-
