@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='UTF-8'>
+  <title>Saimniecisko darbu uzskaites sistēma</title>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='./static/css/main.css'>
+  <link rel='stylesheet' href='./static/css/problem.css'>
+</head>
+
+<body>
+  <div class="col-md-12">
+    <div class="row">
+      <div class="attels">
+        <img src="./images//stradnieks.svg" class="stradnieks" />
+      </div>
+
+      <div class="user">
+        <div class="lietotajs">
+          Vārds Uzvārds
+        </div>
+        <button type="button" class="logout"> IZIET
+        </button>
+      </div>
+    </div>
+    <div class="problem_form_container">
+      <div class="kabinets">
+        <div class="dropdown">
+          <button class="dropdown">
+            Izvēlies kabinetu
+          </button>
+        </div>
+      </div>
+      <div class="darbinieks">
+        <div class="dropdown">
+          <button class="dropdown">
+            Izvēlies darbinieku
+          </button>
+        </div>
+      </div>
+      <div class="problema">
+        <div class="text">
+          <input type="text" class="text1" placeholder="Problēmas apraksts">
+        </div>
+      </div>
+      <div class="iesniegt">
+        <div class="submit">
+          <button class="submit" type="submit">IESNIEGT</button>
+        </div>
+      </div>
+    </div>
+    <div class="table-responsive mt-5">
+      <table class="table saraksts">
+        <thead>
+          <tr>
+            <th>DATUMS</th>
+            <th>KABINETS</th>
+            <th>KAM UZDOTS</th>
+            <th> APRAKSTS</th>
+            <th></th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="nepabeigts">
+            <td>10-10-2020</td>
+            <td>234</td>
+            <td>Elektriķis</td>
+            <td>Nedeg apgaismojums pie tāfeles (nav lampiņu)</td>
+            <td><button class="editb"><img src="./images/edit.svg" class="editimg" /></button></td>
+            <td><button class="binb"><img src="./images/bin.svg" class="biniimg" /></button></td>
+          </tr>
+          <tr class="pabeigts">
+            <td>10-09-2020</td>
+            <td>4507</td>
+            <td>Elektriķis</td>
+            <td>Kabinetā nedeg 4 spuldzes</td>
+            <td><button class="editb"><img src="./images/edit.svg" class="editimg" /></button></td>
+            <td><button class="binb"><img src="./images/bin.svg" class="binimg" /></button></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</body>
+
+</html>
