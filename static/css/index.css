@@ -1,85 +1,35 @@
-.col-md-12{
-  position: absolute;
-  width: 100%;
-}
-
-.nosaukums{
+.heading1{
   margin-top: 10vh;
   text-align: center;
+  font-size: 300%;
+  font-weight: 700;
   color: #703242;
-  font-size: 60px;
-  font-weight: 700;
 } 
-
-.h1{
-  font-size: 60px;
-  font-weight: 700;
-}
-
-.attels{
-  margin: 0 auto;
+.logo{
   margin-top: 10vh;
-  width: 540px;
-}
-    
-.stradnieks{
-  position: center;
-  width: 540px;
-  height: 480px;
-}
-    
+  width: 100%;
+}   
 .login_form_container{
-  margin: 0 auto;
-  width: 540px;
-  height: 272px;
+  width: 100%;
   background: #703242;
-}
-    
-.parole_form{
-  margin: 0 auto;
-  padding: 35px;
-  width: 540px;
-  height: 136px;	
-}
-    
-.parole{
-  margin: 0 auto;
-  width: 430px;
-  height: 83px;
-  background: #FFFFFF;
-  font-size: 36px;
+}      
+.password_input{
   display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #BDBDBD;
-}
-
-.parole1{
-  width: 430px;
-  height: 83px;
-  background: #FFFFFF;
+  margin: 0 auto;
+  width: 50vw;
+  height: 10vh;
   padding-left: 10px;
-}
-
-.login_form{
-  margin: 0 auto;
-  padding: 17.5px;
-  width: 540px;
-  height: 136px;
-  display: block;
-  justify-content: center;
-  align-items: center;
-}
-    
-.login{
-  border-color:#47484D;
+  color: #BDBDBD;
+  font-size: 300%;
+}  
+.login_btn{
   display: flex;
+  margin: 0 auto;
   justify-content: center;
   align-items: center;
-  margin: 0 auto;
-  width: 430px;
-  height: 83px;
+  width: 50vw;
+  height: 10vh;
   background: #47484D;
-  font-size: 36px;
+  font-size: 300%;
   color: #FFFFFF;
 }
