@@ -16,47 +16,46 @@
 
 <body>
   <div class="col-md-12">
-    <div class="row">
-      <div class="attels">
-        <img src="./static/images/stradnieks.svg" class="stradnieks" />
-      </div>
-
-      <div class="user">
-        <div class="lietotajs">
-          Vārds Uzvārds
+    <div class="d-flex justify-content-center">
+      <div class="d-flex flex-column bd-highlight mb-3">
+        <div class="p-2 bd-highlight">
+          <div class="d-flex bd-highlight mb-3">
+            <div class="mr-auto p-2 bd-highlight">
+              <img src="./static/images/stradnieks.svg" class="logo" />
+            </div>
+            <div class="d-flex align-items-end flex-column bd-highlight mb-3">
+              <div class="p-2 bd-highlight">
+                <div class="user">
+                  Vārds Uzvārds
+                </div>
+              </div>
+              <div class="p-2 bd-highlight">
+                <button type="button" class="logout_btn"> IZIET
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
-        <button type="button" class="logout"> IZIET
-        </button>
-      </div>
-    </div>
-    <div class="problem_form_container">
-      <div class="kabinets">
-        <div class="dropdown">
-          <button class="dropdown">
+        <div class="p-2 bd-highlight">
+          <button class="dropdown_room">
             Izvēlies kabinetu
           </button>
         </div>
-      </div>
-      <div class="darbinieks">
-        <div class="dropdown">
-          <button class="dropdown">
+        <div class="p-2 bd-highlight">
+          <button class="dropdown_employee">
             Izvēlies darbinieku
           </button>
         </div>
-      </div>
-      <div class="problema">
-        <div class="text">
-          <input type="text" class="text1" placeholder="Problēmas apraksts">
+        <div class="p-2 bd-highlight">
+          <input type="text" class="text_problem" placeholder="Problēmas apraksts">
         </div>
-      </div>
-      <div class="iesniegt">
-        <div class="submit">
+        <div class="p-2 bd-highlight">
           <button class="submit" type="submit">IESNIEGT</button>
         </div>
       </div>
     </div>
     <div class="table-responsive mt-5">
-      <table class="table saraksts">
+      <table class="table list">
         <thead>
           <tr>
             <th>DATUMS</th>
@@ -68,21 +67,21 @@
           </tr>
         </thead>
         <tbody>
-          <tr class="nepabeigts">
+          <tr class="undone">
             <td>10-10-2020</td>
             <td>234</td>
             <td>Elektriķis</td>
             <td>Nedeg apgaismojums pie tāfeles (nav lampiņu)</td>
-            <td><button class="editb"><img src="./static/images/edit.svg" class="editimg" /></button></td>
-            <td><button class="binb"><img src="./static/images/bin.svg" class="biniimg" /></button></td>
+            <td><button class="edit_btn"><img src="./static/images/edit.svg" class="edit_img" /></button></td>
+            <td><button class="bin_btn"><img src="./static/images/bin.svg" class="bin_img" /></button></td>
           </tr>
-          <tr class="pabeigts">
+          <tr class="done">
             <td>10-09-2020</td>
             <td>4507</td>
             <td>Elektriķis</td>
             <td>Kabinetā nedeg 4 spuldzes</td>
-            <td><button class="editb"><img src="./static/images/edit.svg" class="editimg" /></button></td>
-            <td><button class="binb"><img src="./static/images/bin.svg" class="binimg" /></button></td>
+            <td><button class="edit_btn"><img src="./static/images/edit.svg" class="edit_img" /></button></td>
+            <td><button class="bin_btn"><img src="./static/images/bin.svg" class="bin_img" /></button></td>
           </tr>
         </tbody>
       </table>
