@@ -1,174 +1,79 @@
-.col-md-12 {
-    position: absolute;
+.logo {
+    margin-top: 10vh;
+    width: 34%;
+}
+.user {
+    margin-top: 15vh;
+    font-size: 300%;
+}
+.logout_btn {
+    background:  #5D576B;
+    font-size: 150%;
+}
+.dropdown_room {
+    color: #969696;
+    font-size: 250%;
+    background: #FFFFFF;
+    border-width: 0px;
     width: 100%;
 }
-
-.row{
-    margin: 0 auto;
-    margin-top: 10vh;
-    width: 634px;
-    height: 163px;
-}
-
-.attels {
-    display: block;
-    width: 185px;
-    height: 163px;
-    position: relative;
-}
-
-.stradnieks {
-    width: 185px;
-    height: 163px;
-    position: left;
-}
-
-.user{
-    display: block;
-    text-align: right;
-    padding-top: 70px;
-    padding-left: 220px;
-    position: relative;
-}
-
-.lietotajs{
-    font-size: 36px;
-    text-align: right;
-}   
-
-.logout {
-    border-color: #5D576B;
-    width: 72px;
-    height: 25px;
-    background:  #5D576B;
-    font-size: 12px;
-}
-
-.problem_form_container{
-    margin: 0 auto;
-    width: 650px;
-    height: 100%;
-}
-
-.kabinets{
-    margin: 0 auto;
-    position: relative;
-    width: 634px;
-    height: 70px;
-}
-
-.darbinieks{
-    top:10px;
-    position: relative;
-    margin: 0 auto;
-    width: 634px;
-    height: 70px;
-}
-
-.dropdown{
+.dropdown_employee {
     color: #969696;
-    font-size: 36px;
-    justify-content: center;
-    align-items: center;
+    font-size: 250%;
     background: #FFFFFF;
-    border-color: #FFFFFF;
     border-width: 0px;
-    width: 634px;
-    height: 70px;
+    width: 100%;
 }
-
-.problema{
-    top: 20px;
-    position: relative;
-    margin: 0 auto;
-    width: 634px;
-    height: 188px;
-}
-
-.text{
+.text_problem {
     color: #969696;
-    font-size: 36px;
-    background: #FFFFFF;
-    border-color: #FFFFFF;
-    border-width: 0px;
-    width: 634px;
-    height: 188px;
-}
-
-.text1{
+    font-size: 250%;
     padding-left: 10px;
     background: #FFFFFF;
-    border-color: #FFFFFF;
     border-width: 0px;
-    width: 634px;
-    height: 188px;
+    width: 100%;
+    height: 20vh;
 }
-
-.iesniegt{
-    top: 30px;
-    position: relative;
-    margin: 0 auto;
-    width: 634px;
-    height: 89px;
-}
-
 .submit {
-    margin: 0 auto;
-    width: 634px;
-    height: 89px;
+    width: 100%;
+    height: 10vh;
     background: #703242;
     border-width: 0px;
-    justify-content: center;
-    align-items: center;
-    font-size: 36px;
+    font-size: 220%;
     color: #A0D9CB;
     font-weight: bold;
 }
-
-.saraksts {
+.list {
     border-spacing: 0 5px;
     border-collapse: separate;
 }
-
-.saraksts th {
-    font-size: 24px;
+.list th {
+    font-size: 200%;
     font-weight: 500;
     padding: 20px;
 }
-
-.saraksts tr td{
+.list tr td {
     padding: 20px;
 }
-
-.saraksts thead tr {
-    height: 68px;
-    line-height: 24px;
+.list thead tr {
+    line-height: 5vh;
     background:#5D576B;
     color: #FFFFFF;
 }
-
-.saraksts tbody tr {
-    height: 68px;
-    line-height: 24px;
-    font-size: 18px;
+.list tbody tr {
+    line-height: 5vh;
+    font-size: 150%;
 }
-
-.pabeigts {
+.done {
     background:#31D45F;
 }
-
-.nepabeigts{
+.undone {
     background: #FF9494;
 }
-
-.editb, .binb{
+.edit_btn, .bin_btn{
     background: transparent;
     border-width: 0px;
-    width: 30px;
-    height: 30px;
+    width: 100%;
 }
-
-.editimg, .binimg {
+.edit_img, .bin_img {
     width: 30px;
-    height: 30px;
 }
