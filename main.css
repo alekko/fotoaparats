@@ -66,14 +66,14 @@ html, body {
       background: #FF9494;
   }
 
-  .editb, .binb{
+  .refreshb {
       background: transparent;
       border-width: 0px;
       width: 30px;
       height: 30px;
   }
 
-  .editimg, .binimg {
+  .refreshimg {
       width: 30px;
       height: 30px;
   }
