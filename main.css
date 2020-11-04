@@ -3,29 +3,18 @@ html, body {
   height: 100vh;
   font-family: 'Roboto', sans-serif;
     }
-<<<<<<< HEAD
-=======
-
->>>>>>> 579d1a80b25c45967652af0f6af05022819ac745
   .attels {
     display: block;
     width: 185px;
     height: 163px;
     position: relative;
   }
-<<<<<<< HEAD
-  .ingus{
-    /*position: absolute;*/
-    /*width: 217px;
-    height: 42px;*/
-=======
 
   .ingus{
     /*position: absolute;*/
 /*    width: 217px;
     height: 42px;*/
 
->>>>>>> 579d1a80b25c45967652af0f6af05022819ac745
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -34,50 +23,15 @@ html, body {
     color: #5D576B;
   }
 
-<<<<<<< HEAD
-  .poga1 {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 34px;
-    display: inline-flex;
-    align-items: center;
-    color: #000000;
-    background: #31D45F;;
-}
-
-.poga2 {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 34px;
-  display: inline-flex;
-  align-items: center;
-  color:#A0D9CB;
-  background: #5D576B;
-}
-
-=======
->>>>>>> 579d1a80b25c45967652af0f6af05022819ac745
   .saraksts {
       border-spacing: 0 5px;
       border-collapse: separate;
   }
-<<<<<<< HEAD
-=======
-
->>>>>>> 579d1a80b25c45967652af0f6af05022819ac745
   .saraksts th {
       font-size: 24px;
       font-weight: 500;
       padding: 20px;
   }
-<<<<<<< HEAD
-=======
-
->>>>>>> 579d1a80b25c45967652af0f6af05022819ac745
   .saraksts tr td {
       padding: 20px;
   }
@@ -86,10 +40,6 @@ html, body {
     font-weight: 500;
     padding: 20px;
 }
-<<<<<<< HEAD
-=======
-
->>>>>>> 579d1a80b25c45967652af0f6af05022819ac745
   .tabulasgalva thead tr {
     height: 168px;
     line-height: 24px;
@@ -102,24 +52,11 @@ html, body {
       background:#5D576B;
       color: #FFFFFF;
   }
-<<<<<<< HEAD
-=======
-
->>>>>>> 579d1a80b25c45967652af0f6af05022819ac745
   .saraksts tbody tr {
       height: 68px;
       line-height: 24px;
       font-size: 18px;
   }
-<<<<<<< HEAD
-  .pabeigts {
-      background:#31D45F;
-  }
-  .nepabeigts {
-      background: #FF9494;
-  }
-  .refreshb {
-=======
 
   .pabeigts {
       background:#31D45F;
@@ -130,18 +67,13 @@ html, body {
   }
 
   .editb, .binb{
->>>>>>> 579d1a80b25c45967652af0f6af05022819ac745
       background: transparent;
       border-width: 0px;
       width: 30px;
       height: 30px;
   }
-<<<<<<< HEAD
-  .refreshimg {
-=======
 
   .editimg, .binimg {
->>>>>>> 579d1a80b25c45967652af0f6af05022819ac745
       width: 30px;
       height: 30px;
   }
