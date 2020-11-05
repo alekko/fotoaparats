@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='UTF-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Saimniecīsko darbu uzskaites sistēma</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
+  <link rel='stylesheet' href='main.css'>
+</head>
+<body>
+  <div class="container">
+    <div class="row darbi-header mt-3">
+      <div class="col-md-4 d-none d-md-inline-block">
+        <img src="stradnieks.svg" class="header-img">
+      </div>
+      <div class="col-md-4 align-self-center">
+        <h1 class="darbi-title text-center mt-3 mb-3">Uzdotie darbi</h1>
+      </div>
+      <div class="col-md-4 align-self-end text-right">
+        <h3 class="user-name">Anatolijs Liepa</h3>
+        <form class="form-inline float-right pb-3" action="#">
+          <label for="pwd" class="d-none">Parole:</label>
+          <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+          <button type="submit" class="btn btn-primary">Iziet</button>
+      </form>
+      </div>
+    </div>
+    <div class="darbi-content">
+      <div class="row tablehead">
+        <div class="col-4 col-md-2">Datums</div>
+        <div class="col-4 col-md-2">Kabinets</div>
+        <div class="col-4 col-md-2">Pieteica</div>
+        <div class="col-md-4 text-center d-none d-md-inline-block">Apraksts</div>
+        <div class="col-md-2 text-center d-none d-md-inline-block">Izpildīts</div>
+      </div>
+      <div class="row item">
+        <div class="col-4 col-md-2">27.02.2020.</div>
+        <div class="col-4 col-md-2">402</div>
+        <div class="col-4 col-md-2">A. Liepiņš</div>
+        <div class="col-md-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat felis id felis condimentum venenatis.</div>
+        <div class="col-md-2 text-center"> <input type="checkbox" name="izpildits" value="izpildits"></div>
+      </div>
+      <div class="row item">
+        <div class="col-4 col-md-2">27.02.2020.</div>
+        <div class="col-4 col-md-2">402</div>
+        <div class="col-4 col-md-2">A. Liepiņš</div>
+        <div class="col-md-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer feugiat felis id felis condimentum venenatis.</div>
+        <div class="col-md-2 text-center"> <input type="checkbox" name="izpildits" value="izpildits"></div>
+      </div>
+      <div class="row item">
+        <div class="col-4 col-md-2">27.02.2020.</div>
+        <div class="col-4 col-md-2">402</div>
+        <div class="col-4 col-md-2">A. Liepiņš</div>
+        <div class="col-md-4">felis id felis condimentum venenatis.</div>
+        <div class="col-md-2 text-center"> <input type="checkbox" name="izpildits" value="izpildits"></div>
+      </div>
+    </div>
+  </div>
+<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
