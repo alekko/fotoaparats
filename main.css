@@ -2,15 +2,16 @@ html, body {
   background: #A0D9CB;
   height: 100vh;
   font-family: 'Roboto', sans-serif;
-    }
-  .attels {
+  }
+
+  .image {
     display: block;
     width: 185px;
     height: 163px;
     position: relative;
   }
 
-  .ingus{
+  .owner{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -19,46 +20,52 @@ html, body {
     color: #5D576B;
   }
 
-  .saraksts {
+  .list {
       border-spacing: 0 5px;
       border-collapse: separate;
   }
-  .saraksts th {
+
+  .list th {
       font-size: 24px;
       font-weight: 500;
       padding: 20px;
   }
-  .saraksts tr td {
+
+  .list tr td {
       padding: 20px;
   }
-  .tabulasgalva th {
+
+  .tablehead th {
     font-size: 24px;
     font-weight: 500;
     padding: 20px;
-}
-  .tabulasgalva thead tr {
+  }
+
+  .tablehead thead tr {
     height: 168px;
     line-height: 24px;
     background:#5d576b00;
     color: #5D576B;
-}
-  .saraksts thead tr {
+  }
+
+  .list thead tr {
       height: 68px;
       line-height: 24px;
       background:#5D576B;
       color: #FFFFFF;
   }
-  .saraksts tbody tr {
+
+  .list tbody tr {
       height: 68px;
       line-height: 24px;
       font-size: 18px;
   }
 
-  .pabeigts {
+  .done {
       background:#31D45F;
   }
 
-  .nepabeigts {
+  .incomplete {
       background: #FF9494;
   }
 
