@@ -1,107 +1,107 @@
 const users = [
     {
-        "users_id": 1,
-        "vards": "Zintis",
-        "uzvards": "Krūklis",
-        "parole": "parole11",
-        "amats": "saimnieks"
+        "id": 1,
+        "name": "Zintis",
+        "surname": "Krūklis",
+        "password": "parole11",
+        "role_id": 1,
     },
     {
-        "users_id": 2,
-        "vards": "Mārtiņš",
-        "uzvards": "Zaķis",
-        "parole": "parole12",
-        "amats": "elektriķis"
+        "id": 2,
+        "name": "Mārtiņš",
+        "surname": "Zaķis",
+        "password": "parole12",
+        "role_id": 2
     },
     {
-        "users_id": 3,
-        "vards": "Valdis",
-        "uzvards": "Ore",
-        "parole": "parole13",
-        "amats": "galdnieks"
+        "id": 3,
+        "name": "Valdis",
+        "surname": "Ore",
+        "password": "parole13",
+        "role_id": 3
     }, 
     {
-        "users_id": 4,
-        "vards": "Žanis",
-        "uzvards": "Saule",
-        "parole": "parole14",
-        "amats": "santehniķis"
+        "id": 4,
+        "name": "Žanis",
+        "surname": "Saule",
+        "password": "parole14",
+        "role_id": 4
     },
     {
-        "users_id": 5,
-        "vards": "Cecīlija",
-        "uzvards": "Puķite",
-        "parole": "parole15",
-        "amats": "dežurante-apkopēja"
+        "id": 5,
+        "name": "Cecīlija",
+        "surname": "Puķite",
+        "password": "parole15",
+        "role_id": 5
     },   
     {
-        "users_id": 6,
-        "vards": "Māra",
-        "uzvards": "Ozola",
-        "parole": "parole1",
-        "amats": "skolotājs"
+        "id": 6,
+        "name": "Māra",
+        "surname": "Ozola",
+        "password": "parole1",
+        "role_id": 6
     },
     {
-        "users_id": 7,
-        "vards": "Ināra",
-        "uzvards": "Bērziņa",
-        "parole": "parole2",
-        "amats": "skolotājs"
+        "id": 7,
+        "name": "Ināra",
+        "surname": "Bērziņa",
+        "password": "parole2",
+        "role_id": 6
     },
     {
-        "users_id": 8,
-        "vards": "Rūdolfs",
-        "uzvards": "Roķis",
-        "parole": "parole3",
-        "amats": "skolotājs"
+        "id": 8,
+        "name": "Rūdolfs",
+        "surname": "Roķis",
+        "password": "parole3",
+        "role_id": 6
     },
     {
-        "users_id": 9,
-        "vards": "Aija",
-        "uzvards": "Ignate",
-        "parole": "parole4",
-        "amats": "skolotājs"
+        "id": 9,
+        "name": "Aija",
+        "surname": "Ignate",
+        "password": "parole4",
+        "role_id": 6
     },
     {
-        "users_id": 10,
-        "vards": "Ilze",
-        "uzvards": "Melne",
-        "parole": "parole5",
-        "amats": "skolotājs"
+        "id": 10,
+        "name": "Ilze",
+        "surname": "Melne",
+        "password": "parole5",
+        "role_id": 6
     },
     {
-        "users_id": 11,
+        "id": 11,
         "vards": "Guna",
-        "uzvards": "Taube",
-        "parole": "parole6",
-        "amats": "skolotājs"
+        "surname": "Taube",
+        "password": "parole6",
+        "role_id": 6
     },
     {
-        "users_id": 12,
-        "vards": "Ināra",
-        "uzvards": "Veita",
-        "parole": "parole7",
-        "amats": "skolotājs"
+        "id": 12,
+        "name": "Ināra",
+        "surname": "Veita",
+        "password": "parole7",
+        "role_id": 6
     },
     {
-        "users_id": 13,
-        "users_vards": "Inga",
-        "uzvards": "Mudele",
-        "parole": "parole8",
-        "amats": "skolotājs"
+        "id": 13,
+        "name": "Inga",
+        "surname": "Mudele",
+        "password": "parole8",
+        "role_id": 6
     },
     {
-        "users_id": 14,
-        "vards": "Evija",
-        "uzvards": "Kārkliņa",
-        "parole": "parole9",
-        "amats": "skolotājs"
+        "id": 14,
+        "name": "Evija",
+        "surname": "Kārkliņa",
+        "password": "parole9",
+        "role_id": 6
     },
     {
-        "users_id": 15,
-        "vards": "Agita",
-        "uzvards": "Ziņģīte",
-        "parole": "parole10",
-        "amats": "skolotājs"
+        "id": 15,
+        "name": "Agita",
+        "surname": "Ziņģīte",
+        "password": "parole10",
+        "role_id": 6
     }
 ];

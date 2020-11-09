@@ -1,82 +1,92 @@
 const tasks = [
     {
-        "task_id": 1,
-        "datums": "01.09.2020",
+        "id": 1,
+        "date": "01.09.2020",
         "room_id": 1,
-        "users_id": 2,
-        "apraksts": "nedeg apgaismojums pie tāfeles, nav lampiņu",
-        "statuss": "done"
+        "created_by": 6,
+        "assigned_to": 2,
+        "description": "nedeg apgaismojums pie tāfeles, nav lampiņu",
+        "status": "done"
     },
     {
-        "task_id": 2,
-        "datums": "05.09.2020",
+        "id": 2,
+        "date": "05.09.2020",
         "room_id": 2,
-        "users_id": 4,
-        "apraksts": "izlietnē pil krāns",
-        "statuss": "undone"
+        "created_by": 7,
+        "assigned_to": 4,
+        "description": "izlietnē pil krāns",
+        "status": "undone"
     },
     {
-        "task_id": 3,
-        "datums": "15.09.2020",
+        "id": 3,
+        "date": "15.09.2020",
         "room_id": 3,
-        "users_id": 3,
-        "apraksts": "krēslam pie loga nolūzusi kāja",
-        "statuss": "done"
+        "created_by": 8,
+        "assigned_to": 3,
+        "description": "krēslam pie loga nolūzusi kāja",
+        "status": "done"
     },
     {
-        "task_id": 4,
-        "datums": "29.09.2020",
+        "id": 4,
+        "date": "29.09.2020",
         "room_id": 4,
-        "users_id": 3,
-        "apraksts": "pirmajam galdam loga pusē atskrūvējusies galda virsmas skrūve",
-        "statuss": "undone"
+        "created_by": 9,
+        "assigned_to": 3,
+        "description": "pirmajam galdam loga pusē atskrūvējusies galda virsmas skrūve",
+        "status": "undone"
     },
     {
-        "task_id": 5,
-        "datums": "10.10.2020",
+        "id": 5,
+        "date": "10.10.2020",
         "room_id": 5,
-        "users_id": 5,
-        "apraksts": "gaitenī pie klases durvīm smilšaina grīda",
-        "statuss": "done"
+        "created_by": 10,
+        "assigned_to": 5,
+        "description": "gaitenī pie klases durvīm smilšaina grīda",
+        "status": "done"
     },
     {
-        "task_id": 6,
-        "datums": "13.10.2020",
+        "id": 6,
+        "date": "13.10.2020",
         "room_id": 6,
-        "users_id": 2,
-        "apraksts": "kontaktā pie loga nav strāva",
-        "statuss": "undone"
+        "created_by": 11,
+        "assigned_to": 2,
+        "description": "kontaktā pie loga nav strāva",
+        "status": "undone"
     },
     {
-        "task_id": 7,
-        "datums": "15.10.2020",
+        "id": 7,
+        "date": "15.10.2020",
         "room_id": 7,
-        "users_id": 2,
-        "apraksts": "pagarinātājs, kas nodrošina elektrību galda lampai uz skolotāja galda, nestrādā",
-        "statuss": "done"
+        "created_by": 12,
+        "assigned_to": 2,
+        "description": "pagarinātājs, kas nodrošina elektrību galda lampai uz skolotāja galda, nestrādā",
+        "status": "done"
     },
     {
-        "task_id": 8,
-        "datums": "17.10.2020",
+        "id": 8,
+        "date": "17.10.2020",
         "room_id": 8,
-        "users_id": 3,
+        "created_by": 13,
+        "assigned_to": 3,
         "apraksts": "atlīmējusies galda virsma vidējā rindā otrajam galdam no priekšpuses",
-        "statuss": "undone"
+        "status": "undone"
     },
     {
-        "task_id": 9,
-        "datums": "26.10.2020",
+        "id": 9,
+        "date": "26.10.2020",
         "room_id": 9,
-        "users_id": 3,
-        "apraksts": "skolotāja krēsla kājas kustas (atlīmējušās)",
-        "statuss": "done"
+        "created_by": 14,
+        "assigned_to": 3,
+        "description": "skolotāja krēsla kājas kustas (atlīmējušās)",
+        "status": "done"
     },
     {
-        "task_id": 10,
-        "datums": "03.11.2020",
+        "id": 10,
+        "date": "03.11.2020",
         "room_id": 10,
-        "users_id": 3,
-        "apraksts": "skapim nedarbojas slēdzene",
-        "statuss": "undone"
+        "created_by": 15,
+        "assigned_to": 3,
+        "description": "skapim nedarbojas slēdzene",
+        "status": "undone"
     }
 ];

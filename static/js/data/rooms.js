@@ -1,42 +1,42 @@
 const rooms = [
     {
-        "room_id": 1,
-        "room1": "01"        
+        "id": 1,
+        "name": "01"        
     },
     {
-        "room_id": 2,
-        "room2": "02"        
+        "id": 2,
+        "name": "02"        
     },
     {
-        "room_id": 3,
-        "room3": "10"        
+        "id": 3,
+        "name": "10"        
     },
     {
-        "room_id": 4,
-        "room4": "11"        
+        "id": 4,
+        "name": "11"        
     },
     {
         "room_id": 5,
         "room5": "12"        
     },
     {
-        "room_id": 6,
-        "room6": "20"        
+        "id": 6,
+        "name": "20"        
     },
     {
-        "room_id": 7,
-        "room7": "21"        
+        "id": 7,
+        "name": "21"        
     },
     {
-        "room_id": 8,
-        "room8": "22"        
+        "id": 8,
+        "name": "22"        
     },
     {
-        "room_id": 9,
-        "room9": "30"        
+        "id": 9,
+        "name": "30"        
     },
     {
-        "room_id": 10,
-        "room10": "31"        
+        "id": 10,
+        "name": "31"        
     }
 ];    
