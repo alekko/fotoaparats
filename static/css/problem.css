@@ -69,7 +69,7 @@
 .undone {
     background: #FF9494;
 }
-.edit_btn, .bin_btn{
+.edit_btn, .bin_btn {
     background: transparent;
     border-width: 0px;
     width: 100%;
