@@ -68,7 +68,7 @@ const tasks = [
         "room_id": 8,
         "created_by": 13,
         "assigned_to": 3,
-        "apraksts": "atlīmējusies galda virsma vidējā rindā otrajam galdam no priekšpuses",
+        "description": "atlīmējusies galda virsma vidējā rindā otrajam galdam no priekšpuses",
         "status": "undone"
     },
     {
