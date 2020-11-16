@@ -1,0 +1,114 @@
+body {
+    background-color: #A0D9CB;
+}
+.col-md-12 {
+    position: absolute;
+    width: 100%;
+}
+
+.row{
+    margin: 0 auto;
+    margin-top: 10vh;
+    width: 634px;
+    height: 163px;
+}
+
+.attels {
+    display: block;
+    width: 185px;
+    height: 163px;
+    position: relative;
+}
+
+.stradnieks {
+    width: 185px;
+    height: 163px;
+    position: left;
+}
+
+.saimnieks{
+    position: absolute;
+    top: 40px;
+    right: 42px;
+    width: 217px;
+    height: 42px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #5D576B;   
+}
+.skaidrojums{
+    /* (Elektriķis) */
+    position: absolute;
+    top: 85px;
+    right: 42px;
+    width: 71px;
+    height: 14px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #5D576B;
+}
+.pogaiziet{
+    position: absolute;
+    width: 72px;
+    height: 25px;
+
+    background: #5D576B;
+    border: 1px solid;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    align-items: center;
+    top: 100px;
+    right: 42px;
+
+    color: #A0D9CB;
+}
+
+.saraksts {
+    border-spacing: 0 5px;
+    border-collapse: separate;
+}
+
+.saraksts th {
+    font-size: 24px;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.saraksts tr td{
+    padding: 20px;
+}
+
+.saraksts thead tr {
+    height: 68px;
+    line-height: 24px;
+    background:#5D576B;
+    color: #FFFFFF;
+}
+
+.saraksts tbody tr {
+    height: 68px;
+    line-height: 24px;
+    font-size: 18px;
+}
+
+.pabeigts {
+    background:#31D45F;
+}
+
+.editimg, .binimg {
+    width: 30px;
+    height: 30px;
+}
+
