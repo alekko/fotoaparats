@@ -1,0 +1,147 @@
+body {
+    background-color: #A0D9CB;
+}
+/* Inguss Zariņš */
+
+.saimnieks{
+    position: absolute;
+    top: 40px;
+    right: 42px;
+    width: 217px;
+    height: 42px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #5D576B;   
+}
+.taisnsturis{
+/* Rectangle 89 */
+    
+    display: block;
+    margin-left: 5%;
+    margin-right: 10%;
+    top: 80px;
+    width: 90%;
+    height: 719px;
+
+    background: #5D576B;
+}
+.skaidrojums{
+    /* (SAIMNIEKS) */
+    position: absolute;
+    top: 85px;
+    right: 42px;
+    width: 71px;
+    height: 14px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #5D576B;
+}
+.pogauzd {
+    /* UZ UZDEVUMIEM */
+    position: absolute;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    
+    align-items: center;
+    color: #5D576B;
+    font-size: 12px;
+    line-height: 14px;
+    top: 100px;
+    right: 120px;
+    width: 137px;
+    height: 25px;
+
+    background: #31D45F;
+    border: 1px solid #5D576B;
+}
+.pogaiziet{
+    position: absolute;
+    width: 72px;
+    height: 25px;
+
+    background: #5D576B;
+    border: 1px solid;
+    /* IZIET */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    align-items: center;
+    top: 100px;
+    right: 42px;
+
+    color: #A0D9CB;
+}
+
+.tabula{
+    position: relative;
+    margin-left: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #5D576B;
+}
+
+.pirmarinda{
+    background: #31D45F;  
+}
+.visasrindas{
+    background: #F5F3F3;
+}
+.kolona{
+    width: 300px;
+    height: 46px;
+}
+.rindas{
+    background: #F5F3F3;
+}
+.ievadvards{
+    width: 20%;
+    height: 46px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+}
+.bilde{
+    margin: 0 auto;
+    margin-top: 5vh;
+    margin-left: 10%;
+    display: block;
+}
+.pogapievienot{
+    background: #31D45F;
+    border: 1px solid #5D576B; 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    width: 200px;
+    height: 46px;
+    align-items: center;
+    color: #5D576B;
+    font-size: 12px;
+    line-height: 14px;
+    margin-left: 20px;
+}
+.teksts{
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    color: #ADADAD;
+}
