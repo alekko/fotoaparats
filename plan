@@ -1,0 +1,95 @@
+8 nedēļas
+    - Kuros laikos tiekat un vai esat gatavi tikties
+        - 1x divās nedēļās
+        - 1x nedēļā
+        - 2x nedēļā
+
+    - Vai sazvans var būt ilgāk par 1 h
+        - jā - līdz 2h
+        - nē
+
+    - Cik katrs var veltīt laika nedēļā
+        - vairāk par 3 stundām?
+        - mazāk par 3 stundām?
+
+    - Kādas ir neskaidrības šobrīd, par ko vajadzētu pastāstīt atkārtoti?
+        - HTML
+        - CSS
+        - GIT
+
+Lūgums pārliecināties, ka katram individuāli vai pāros ir uzstaisīts pull request iekš github.
+    Pull request pie apraksta, lūgums, ierakstīt:
+        - kāds skats tika taisīts
+        - ekrānšāvīņi no uztaisītā skata datora un mobilās versijas*
+        - paraugs no Figma, kā skatam bija jāizskatās
+
+* Mobilo versiju Figma netaisījām, tā kā šis vairāk ir tiem, kas grib to uztaisīt. Bet vismaz uz planšetēm/maza ekrāna datoriem būtu jāstrādā!
+
+Šeit, lūdzu,
+
+
+- Uztaisīt Code review
+->
+- Kad ir nākamais sazvans, kur mēs
+
+- Reģistrējam veiktos mājas darbus
+- Katra sazvana beigās katrs demonstrē savu mājas darbu
+
+- Par GIT + HTML + CSS + JS
+
+Uz nākamo reizi:
+
+1. Jātiek galā ar skatiem -> izveidot pull request + ar attēliem
+
+2. Saprast, ko mums vajag glabāt un kādus datus glabāsim?
+ - Lietotāji
+ - Uzdevumi
+ - Kabineti
+
+3. Kad ir saprasta struktūra -> izveidojam JS mapē mūsu JSON objektus, līdzīgi kā sazvanā
+
+
+-> 4. Uzzīmējam mūsu JSON objektus HTML dokumentā + HTML + CSS
+
+5. JSON objektus pārcelt uz ārpasauli -> Fetch
+
+
+1. Jāpabeidz skati + mobīlais dizains -> līdz 02.11.2020 ~ 2  - > vai šo vajag?
+- HTML iziet cauri un pastāstīt, iedot resursus
+
+1.1 Īsais intro par GIT ?
+
+2 JSON + Javascript + ?Swagger + ?Fetch ~ 2
+    No swagggger ar fetch dabūt datus un ar JS uzzīmēt mūsu tabulas
+
+    2.1 JSON + Javascript ~ 1
+    - JSON + Javascript - Ievads -> teorija
+    - Kā tas skar mūsu projektu
+    - MD -> padomāt, kādi modeļi mums būs (tabulas), izveidot JSON objektus kā klases
+    - js mapē -> Mums būs, piemēram, šādi modeļi
+
+    const tasks = [
+        {name: 'task name' , ...},
+        ...
+    ]
+
+    2.2 Pieslēdzam Swagger + JS Fetch
+     Kas ir Swager  -> + demo
+     Kas ir Fetch?
+     Kā tas skar mūsu projektu?
+     Pārnesm mūsu 2. soļa JSON objektus uz Swager
+     Uztaisām JS demo, kā mēs varam no Swagger ar Fetch dabūt datus ->
+
+3. Tagad mums ir jāuzzīmē iekš HTML mūsu tabulas ~ 2
+    Mums ir 2 tabulas:
+    - lietotāji
+    - uzdotie darbi
+
+4. Jautājumi + prezentācija + rezerve ~ 2
+
+Python Flask
+
+5. Flask pārrakstīt skatus -> viss uz flask ?
+ Jāuzliek lokāli flask
+ Jāpalaiž lokāli, lai strādā
+ Jāpārnes uz heroku mūsu projekts
