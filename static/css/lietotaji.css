@@ -20,14 +20,12 @@ body {
 }
 .taisnsturis{
 /* Rectangle 89 */
-    
     display: block;
     margin-left: 5%;
     margin-right: 10%;
     top: 80px;
     width: 90%;
     height: 719px;
-
     background: #5D576B;
 }
 .skaidrojums{
@@ -37,7 +35,6 @@ body {
     right: 42px;
     width: 71px;
     height: 14px;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -51,7 +48,6 @@ body {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    
     align-items: center;
     color: #5D576B;
     font-size: 12px;
@@ -60,7 +56,6 @@ body {
     right: 120px;
     width: 137px;
     height: 25px;
-
     background: #31D45F;
     border: 1px solid #5D576B;
 }
@@ -80,7 +75,6 @@ body {
     align-items: center;
     top: 100px;
     right: 42px;
-
     color: #A0D9CB;
 }
 
@@ -90,7 +84,7 @@ body {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 28px;
     display: flex;
     align-items: center;
@@ -112,11 +106,11 @@ body {
     background: #F5F3F3;
 }
 .ievadvards{
-    width: 20%;
-    height: 46px;
+    width: 15%;
+    height: 42px;
     margin-top: 30px;
     margin-bottom: 30px;
-    margin-left: 20px;
+    margin-left: 2vw;
 }
 .bilde{
     margin: 0 auto;
@@ -130,7 +124,7 @@ body {
     font-family: Roboto;
     font-style: normal;
     font-weight: bold;
-    width: 200px;
+    width: 15%;
     height: 46px;
     align-items: center;
     color: #5D576B;
@@ -144,4 +138,21 @@ body {
     font-style: normal;
     font-weight: bold;
     color: #ADADAD;
+}
+.loma{
+    width: 15%;
+    height: 46px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 2vw;
+    color: #ADADAD;
+    font-size: 12px;
+    line-height: 14px;
+    border: 2px solid #F5F3F3;
+}
+.lomatab{
+    color: #5D576B;
+    font-size: 16px;
+    height: 42px;
+    border: 1px solid #F5F3F3;
 }
