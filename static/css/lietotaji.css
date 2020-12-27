@@ -6,7 +6,7 @@ body {
 .saimnieks{
     position: absolute;
     top: 40px;
-    right: 42px;
+    right: 6%;
     width: 217px;
     height: 42px;
 
@@ -32,7 +32,7 @@ body {
     /* (SAIMNIEKS) */
     position: absolute;
     top: 85px;
-    right: 42px;
+    right: 6%;
     width: 71px;
     height: 14px;
     font-family: Roboto;
@@ -53,7 +53,7 @@ body {
     font-size: 12px;
     line-height: 14px;
     top: 100px;
-    right: 120px;
+    right: 15%;
     width: 137px;
     height: 25px;
     background: #31D45F;
@@ -63,7 +63,6 @@ body {
     position: absolute;
     width: 72px;
     height: 25px;
-
     background: #5D576B;
     border: 1px solid;
     /* IZIET */
@@ -74,7 +73,7 @@ body {
     line-height: 14px;
     align-items: center;
     top: 100px;
-    right: 42px;
+    right: 6%;
     color: #A0D9CB;
 }
 
@@ -113,7 +112,6 @@ body {
     margin-left: 2vw;
 }
 .bilde{
-    margin: 0 auto;
     margin-top: 5vh;
     margin-left: 10%;
     display: block;
