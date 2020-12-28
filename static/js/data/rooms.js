@@ -16,8 +16,8 @@ const rooms = [
         "name": "11"        
     },
     {
-        "room_id": 5,
-        "room5": "12"        
+        "id": 5,
+        "name": "12"        
     },
     {
         "id": 6,
