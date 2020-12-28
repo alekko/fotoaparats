@@ -71,7 +71,7 @@ const users = [
     },
     {
         "id": 11,
-        "vards": "Guna",
+        "name": "Guna",
         "surname": "Taube",
         "password": "parole6",
         "role_id": 6
