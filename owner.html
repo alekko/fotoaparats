@@ -3,83 +3,70 @@
 
 <head>
   <meta charset='utf-8'>
-  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>Saimniecisko darbu uzskaites sistēma</title>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <!--meta http-equiv='X-UA-Compatible' content='IE=edge'-->
+  <title>Visi darbi</title>
+  <!--meta name='viewport' content='width=device-width, initial-scale=1'>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
-  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"-->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='./static/css/workers.css'>
   <script src='main.js'></script>
 </head>
 
 <body>
-  <div class='container'>
-    <div class="table-responsive mt-5"></div>
-    <div class="row">
-      <div class="col-md-9">
-        <img src="./static/images/stradnieks.svg" class="image" />
-      </div>
-
-      <div class="col-md-3">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="owner">
-                <p>Ingus Zariņš</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-md-12">
-              <p>(SAIMNIEKS)</p>
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="col-md-8">
-              <button class="button1">PIEVIENOT/LABOT</button>
-            </div>
-            <div class="col-md-4">
-              <button class="button2">IZIET</button>
-            </div>
-          </div>
-        </div>
-      </div>
+  <div class="row">
+    <div class="saimnieks">Inguss Zariņš</div>
+    <div class="skaidrojums">(SAIMNIEKS)</div>
+    <div><button class="pogauzd" onclick="window.location.href='./saimnieks_dati.html'">LIETOTĀJI</button>
+      <button class="pogaiziet">IZIET</button>
     </div>
-
-    <table class="table list">
+    <div class="attels"><img src="./static/images/worker.svg"></div>
+    <table class="tabula saraksts">
       <thead>
         <tr>
           <th>DATUMS</th>
           <th>KABINETS</th>
           <th>KAM UZDOTS</th>
           <th> APRAKSTS</th>
-          <th></th>
-          <th></th>
+          <th>🔄 </th>
         </tr>
       </thead>
       <tbody>
-        <tr class="incomplete">
+        <tr class="undone">
           <td>10-10-2020</td>
-          <td>234</td>
+          <td class="vidus">234</td>
           <td>Elektriķis</td>
           <td>Nedeg apgaismojums pie tāfeles (nav lampiņu)</td>
-          <td></td>
-          <td></td>
+          <td class="vidus"><button class="editb">🔲</button></td>
         </tr>
-        <tr class="done">
+        <tr class="pabeigts">
           <td>10-09-2020</td>
-          <td>4507</td>
+          <td class="vidus">4507</td>
           <td>Elektriķis</td>
           <td>Kabinetā nedeg 4 spuldzes</td>
-          <td></td>
-          <td><button class="refreshb"><img src="./static/images/refresh.png" class="refreshimg" /></button></td>
+          <td class="vidus"><button class="editb">🔄</button>
+          </td>
+        </tr>
+        <tr class="undone">
+          <td>10-10-2020</td>
+          <td class="vidus">234</td>
+          <td>Galdnieks</td>
+          <td>Salūzis krēsls</td>
+          <td class="vidus"><button class="editb">🔲</button>
+          </td>
+        </tr>
+        <tr class="undone">
+          <td>10-09-2020</td>
+          <td class="vidus">4507</td>
+          <td>Santehniķis</td>
+          <td>Pil krāns</td>
+          <td class="vidus"><button class="editb">🔲</button>
+          </td>
         </tr>
       </tbody>
     </table>
   </div>
+
 </body>
 
 </html>

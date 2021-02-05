@@ -3,89 +3,112 @@
 
 <head>
   <meta charset='UTF-8'>
-  <title>Saimniecisko darbu uzskaites sistēma</title>
+  <title>Problēmas pieteikums</title>
 
   <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&display=swap" rel="stylesheet">
+  <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css"-->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <link rel='stylesheet' href='./static/css/main.css'>
   <link rel='stylesheet' href='./static/css/problem.css'>
 </head>
 
 <body>
-  <div class="col-md-12">
-    <div class="d-flex justify-content-center">
-      <div class="d-flex flex-column bd-highlight mb-3">
-        <div class="p-2 bd-highlight">
-          <div class="d-flex bd-highlight mb-3">
-            <div class="mr-auto p-2 bd-highlight">
-              <img src="./static/images/stradnieks.svg" class="logo" />
-            </div>
-            <div class="d-flex align-items-end flex-column bd-highlight mb-3">
-              <div class="p-2 bd-highlight">
-                <div class="user">
-                  Vārds Uzvārds
-                </div>
-              </div>
-              <div class="p-2 bd-highlight">
-                <button type="button" class="logout_btn"> IZIET
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="p-2 bd-highlight">
-          <button class="dropdown_room">
-            Izvēlies kabinetu
-          </button>
-        </div>
-        <div class="p-2 bd-highlight">
-          <button class="dropdown_employee">
-            Izvēlies darbinieku
-          </button>
-        </div>
-        <div class="p-2 bd-highlight">
-          <input type="text" class="text_problem" placeholder="Problēmas apraksts">
-        </div>
-        <div class="p-2 bd-highlight">
-          <button class="submit" type="submit">IESNIEGT</button>
-        </div>
-      </div>
+  <div class="row">
+    <div class="saimnieks">Inese Zariņa</div>
+    <div class="skaidrojums">(DARBINIEKS)</div>
+    <button class="pogaiziet">IZIET</button>
+    <div class="attels">
+      <img src="./static/images/workers.svg">
     </div>
-    <div class="table-responsive mt-5">
-      <table class="table list">
-        <thead>
-          <tr>
-            <th>DATUMS</th>
-            <th>KABINETS</th>
-            <th>KAM UZDOTS</th>
-            <th> APRAKSTS</th>
-            <th></th>
-            <th></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="undone">
-            <td>10-10-2020</td>
-            <td>234</td>
-            <td>Elektriķis</td>
-            <td>Nedeg apgaismojums pie tāfeles (nav lampiņu)</td>
-            <td><button class="edit_btn"><img src="./static/images/edit.svg" class="edit_img" /></button></td>
-            <td><button class="bin_btn"><img src="./static/images/bin.svg" class="bin_img" /></button></td>
-          </tr>
-          <tr class="done">
-            <td>10-09-2020</td>
-            <td>4507</td>
-            <td>Elektriķis</td>
-            <td>Kabinetā nedeg 4 spuldzes</td>
-            <td><button class="edit_btn"><img src="./static/images/edit.svg" class="edit_img" /></button></td>
-            <td><button class="bin_btn"><img src="./static/images/bin.svg" class="bin_img" /></button></td>
-          </tr>
-        </tbody>
-      </table>
+
+    <div class="iesniegt">
+      <input type="text" class="ievadvards teksts" value="NORĀDI VIETU">
+      <input type="text" class="apraksts teksts" placeholder="PROBLĒMAS APRAKSTS">
+
+      <select class="loma" name="loma">
+        <option value="galvena">IZVĒLIES DARBINIEKU</option>
+        <option value="galvena">Saimnieks</option>
+        <option value="str1">Santehniķis</option>
+        <option value="str2">Elektriķis</option>
+        <option value="str3">Galdnieks</option>
+      </select>
+
+      <button class="submit" type="submit">IESNIEGT</button>
+
     </div>
+
+    <table class="tabula saraksts">
+      <thead>
+        <tr>
+          <th>DATUMS</th>
+          <th>KABINETS</th>
+          <th>KAM UZDOTS</th>
+          <th> APRAKSTS</th>
+          <th>LABOT</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="undone">
+          <td>10-10-2020</td>
+          <td class="vidus">234</td>
+          <td>Sergejs Zembkovskis</td>
+          <td>Nedeg apgaismojums pie tāfeles (nav lampiņu)</td>
+          <td class="vidus">
+            <button class="editb">
+              <img src="./static/images/labot.svg">
+            </button>
+            <button class="editb">
+              <img src="./static/images/dzest.svg">
+            </button>
+          </td>
+        </tr>
+        <tr class="pabeigts">
+          <td>10-09-2020</td>
+          <td class="vidus">4507</td>
+          <td>Inese Zariņa</td>
+          <td>Kabinetā nedeg 4 spuldzes</td>
+          <td class="vidus">
+            <button class="editb">
+              <img src="./static/images/labot.svg">
+            </button>
+            <button class="editb">
+              <img src="./static/images/dzest.svg">
+            </button>
+          </td>
+        </tr>
+        <tr class="undone">
+          <td>10-10-2020</td>
+          <td class="vidus">234</td>
+          <td></td>
+          <td>Nedeg apgaismojums pie tāfeles (nav lampiņu)</td>
+          <td class="vidus">
+            <button class="editb">
+              <img src="./static/images/labot.svg">
+            </button>
+            <button class="editb">
+              <img src="./static/images/dzest.svg">
+            </button>
+          </td>
+        </tr>
+        <tr class="undone">
+          <td>10-09-2020</td>
+          <td class="vidus">4507</td>
+          <td></td>
+          <td>Kabinetā nedeg 4 spuldzes</td>
+          <td class="vidus">
+            <button class="editb">
+              <img src="./static/images/labot.svg">
+            </button>
+            <button class="editb">
+              <img src="./static/images/dzest.svg">
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
   </div>
+
 </body>
 
 </html>
