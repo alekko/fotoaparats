@@ -43,6 +43,23 @@ body {
     color: #5D576B;
 }
 .pogaiziet{
+    
+    width: 72px;
+    height: 25px;
+    background: #5D576B;
+    border: 1px solid;
+    /* IZIET */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    align-items: center;
+    top: 100px;
+    right: 6%;
+    color: #A0D9CB;
+}
+.pogaizietw{
     position: absolute;
     width: 72px;
     height: 25px;
@@ -101,7 +118,6 @@ body {
 }
 .pogauzd {
     /* LIETOTĀJI */
-    position: absolute;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -109,10 +125,12 @@ body {
     color: #5D576B;
     font-size: 12px;
     line-height: 14px;
-    top: 100px;
-    right: 15%;
     width: 137px;
     height: 25px;
     background: #31D45F;
     border: 1px solid #5D576B;
+ }
+.poganoviet{
+    position: absolute;
+    right: 6%;
 }
