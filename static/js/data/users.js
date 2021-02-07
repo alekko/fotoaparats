@@ -19,7 +19,7 @@ const users = [
         "surname": "Ore",
         "password": "parole13",
         "role_id": 3
-    }, 
+    },
     {
         "id": 4,
         "name": "Žanis",
@@ -33,7 +33,7 @@ const users = [
         "surname": "Puķite",
         "password": "parole15",
         "role_id": 5
-    },   
+    },
     {
         "id": 6,
         "name": "Māra",
@@ -71,7 +71,7 @@ const users = [
     },
     {
         "id": 11,
-        "vards": "Guna",
+        "name": "Guna",
         "surname": "Taube",
         "password": "parole6",
         "role_id": 6
