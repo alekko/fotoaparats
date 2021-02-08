@@ -22,16 +22,36 @@ function tableFromJson() {
         tr.appendChild(th);
         th.setAttribute('class', 'pirmarinda kolona')
     }
-
-    // add json data to the table as rows.
+    
     for (var i = 1; i < users.length; i++) {
 
         tr = table.insertRow(-1);
         tr.setAttribute('class', 'visasrindas kolona');
 
         for (var j = 1; j < col.length + 1; j++) {
-            var tabCell = tr.insertCell(-1);
-            tabCell.innerHTML = users[i][col[j]];
+            if (j == 4) {
+                var list = "<select class='lomatab'>" +
+                    "<option selected>" + roles[users[i][col[j]] - 1] + "<\/option>" +
+                    "<option value=\"1\">Saiminieks<\/option>" +
+                    "<option value=\"2\">Darbinieks<\/option>" +
+                    "<option value=\"3\">Galdnieks<\/option>" +
+                    "<option value=\"4\">Santehniķis<\/option>" +
+                    "<option value=\"5\">Dežurante-apkopēja<\/option>" +
+                    "<option value=\"6\">Skolotājs<\/option>" +
+                    "<\/select>";
+                var tabCell = tr.insertCell(-1);
+                tabCell.innerHTML = list;
+            }
+            else if (j == 5) {
+                var labot = "<button id="+ i +"><img src='./static/images/labot.svg'></button>"
+                var tabCell = tr.insertCell(-1);
+                tabCell.innerHTML = labot;
+            }
+            else {
+                var tabCell = tr.insertCell(-1);
+                tabCell.innerHTML = users[i][col[j]];     
+            }
+            
         }
     }
 
