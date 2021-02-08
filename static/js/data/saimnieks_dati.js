@@ -15,14 +15,15 @@ function tableFromJson() {
 
     // Create table header row using the extracted headers above.
     var tr = table.insertRow(-1);                   // table row.
+    let virsraksti = ["VĀRDS", "UZVĀRDS", "PAROLE", "LOMA", "LABOT"];
 
-    for (var i = 1; i <= col.length; i++) {
+    for (var i = 0; i < virsraksti.length; i++) {
         var th = document.createElement("th");      // table header.
-        th.innerHTML = col[i];
+        th.innerHTML = virsraksti[i];
         tr.appendChild(th);
         th.setAttribute('class', 'pirmarinda kolona')
     }
-    
+
     for (var i = 1; i < users.length; i++) {
 
         tr = table.insertRow(-1);
@@ -43,15 +44,15 @@ function tableFromJson() {
                 tabCell.innerHTML = list;
             }
             else if (j == 5) {
-                var labot = "<button id="+ i +"><img src='./static/images/labot.svg'></button>"
+                var labot = "<button id=" + i + "><img src='./static/images/labot.svg'></button>"
                 var tabCell = tr.insertCell(-1);
                 tabCell.innerHTML = labot;
             }
             else {
                 var tabCell = tr.insertCell(-1);
-                tabCell.innerHTML = users[i][col[j]];     
+                tabCell.innerHTML = users[i][col[j]];
             }
-            
+
         }
     }
 
