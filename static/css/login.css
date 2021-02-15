@@ -1,35 +1,51 @@
 .heading1 {
   margin-top: 10vh;
   text-align: center;
-  font-size: 300%;
+  font-size: 150%;
   font-weight: 700;
   color: #703242;
 } 
 .logo {
-  margin-top: 10vh;
-  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }   
 .login_form_container {
-  width: 100%;
+  width: 80%;
+  padding-top: 5px;
   background: #703242;
+  margin: auto;
+  height: 96px;
 }      
 .password_input {
-  display: flex;
-  margin: 0 auto;
-  width: 50vw;
-  height: 10vh;
-  padding-left: 10px;
+  display: block;
+  padding-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 93%;
+  border: solid #703242 2px;
+  height: 35px;
   color: #BDBDBD;
-  font-size: 300%;
+  font-size: 100%;
 }  
 .login_btn {
   display: flex;
-  margin: 0 auto;
+  margin-top: 5px;
+  padding-top: 10px;
   justify-content: center;
-  align-items: center;
-  width: 50vw;
-  height: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+  height: 40px;
   background: #47484D;
-  font-size: 300%;
+  font-size: 100%;
   color: #FFFFFF;
+}
+.ramis {
+  max-width: 500px;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }

@@ -1,15 +1,12 @@
 body {
     background-color: #A0D9CB;
 }
-/* Inguss Zariņš */
 
 .saimnieks{
+    /* Inguss Zariņš */
     position: absolute;
     top: 40px;
-    right: 42px;
-    width: 217px;
-    height: 42px;
-
+    right: 6%;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -19,20 +16,18 @@ body {
     color: #5D576B;   
 }
 .taisnsturis{
-/* Rectangle 89 */
+/* Tumšais fons  */
     display: block;
-    margin-left: 5%;
-    margin-right: 10%;
-    top: 80px;
-    width: 90%;
+    width: 100%;
     height: 719px;
     background: #5D576B;
-}
+    }
+    
 .skaidrojums{
     /* (SAIMNIEKS) */
     position: absolute;
     top: 85px;
-    right: 42px;
+    right: 6%;
     width: 71px;
     height: 14px;
     font-family: Roboto;
@@ -44,7 +39,7 @@ body {
 }
 .pogauzd {
     /* UZ UZDEVUMIEM */
-    position: absolute;
+    
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
@@ -52,18 +47,20 @@ body {
     color: #5D576B;
     font-size: 12px;
     line-height: 14px;
-    top: 100px;
-    right: 120px;
+    
     width: 137px;
     height: 25px;
     background: #31D45F;
     border: 1px solid #5D576B;
 }
-.pogaiziet{
+.poganoviet{
     position: absolute;
+    right: 6%;
+}
+.pogaiziet{
+    
     width: 72px;
     height: 25px;
-
     background: #5D576B;
     border: 1px solid;
     /* IZIET */
@@ -74,7 +71,7 @@ body {
     line-height: 14px;
     align-items: center;
     top: 100px;
-    right: 42px;
+    right: 6%;
     color: #A0D9CB;
 }
 
@@ -84,7 +81,7 @@ body {
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 18px;
     line-height: 28px;
     display: flex;
     align-items: center;
@@ -113,10 +110,10 @@ body {
     margin-left: 2vw;
 }
 .bilde{
-    margin: 0 auto;
-    margin-top: 5vh;
-    margin-left: 10%;
+    margin-top: 10vh;
     display: block;
+    position: relative;
+    position: left;
 }
 .pogapievienot{
     background: #31D45F;
@@ -149,10 +146,16 @@ body {
     font-size: 12px;
     line-height: 14px;
     border: 2px solid #F5F3F3;
-}
+    }
 .lomatab{
     color: #5D576B;
     font-size: 16px;
     height: 42px;
     border: 1px solid #F5F3F3;
 }
+.row{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10vh;
+    width: 90%;
+    }
