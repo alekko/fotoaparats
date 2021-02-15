@@ -6,7 +6,9 @@ const tasks = [
         "created_by": 6,
         "assigned_to": 2,
         "description": "nedeg apgaismojums pie tāfeles, nav lampiņu",
-        "status": "done"
+        "status": "done",
+        "edit_btn": "<img src=./static/images/edit.svg></img>",
+        "bin_btn": "<img src=./static/images/bin.svg></img>"
     },
     {
         "id": 2,
@@ -15,7 +17,9 @@ const tasks = [
         "created_by": 7,
         "assigned_to": 4,
         "description": "izlietnē pil krāns",
-        "status": "undone"
+        "status": "undone",
+        "edit_btn": "<img src=./static/images/edit.svg></img>",
+        "bin_btn": "<img src=./static/images/bin.svg></img>"
     },
     {
         "id": 3,
@@ -24,7 +28,9 @@ const tasks = [
         "created_by": 8,
         "assigned_to": 3,
         "description": "krēslam pie loga nolūzusi kāja",
-        "status": "done"
+        "status": "done",
+        "edit_btn": "<img src=./static/images/edit.svg></img>",
+        "bin_btn": "<img src=./static/images/bin.svg></img>"
     },
     {
         "id": 4,
@@ -33,7 +39,9 @@ const tasks = [
         "created_by": 9,
         "assigned_to": 3,
         "description": "pirmajam galdam loga pusē atskrūvējusies galda virsmas skrūve",
-        "status": "undone"
+        "status": "undone",
+        "edit_btn": "<img src=./static/images/edit.svg></img>",
+        "bin_btn": "<img src=./static/images/bin.svg></img>"
     },
     {
         "id": 5,
@@ -42,7 +50,9 @@ const tasks = [
         "created_by": 10,
         "assigned_to": 5,
         "description": "gaitenī pie klases durvīm smilšaina grīda",
-        "status": "done"
+        "status": "done",
+        "edit_btn": "<img src=./static/images/edit.svg></img>",
+        "bin_btn": "<img src=./static/images/bin.svg></img>"
     },
     {
         "id": 6,
@@ -51,7 +61,9 @@ const tasks = [
         "created_by": 11,
         "assigned_to": 2,
         "description": "kontaktā pie loga nav strāva",
-        "status": "undone"
+        "status": "undone",
+        "edit_btn": "<img src=./static/images/edit.svg></img>",
+        "bin_btn": "<img src=./static/images/bin.svg></img>"
     },
     {
         "id": 7,
@@ -60,7 +72,9 @@ const tasks = [
         "created_by": 12,
         "assigned_to": 2,
         "description": "pagarinātājs, kas nodrošina elektrību galda lampai uz skolotāja galda, nestrādā",
-        "status": "done"
+        "status": "done",
+        "edit_btn": "<img src=./static/images/edit.svg></img>",
+        "bin_btn": "<img src=./static/images/bin.svg></img>"
     },
     {
         "id": 8,
@@ -69,7 +83,9 @@ const tasks = [
         "created_by": 13,
         "assigned_to": 3,
         "description": "atlīmējusies galda virsma vidējā rindā otrajam galdam no priekšpuses",
-        "status": "undone"
+        "status": "undone",
+        "edit_btn": "<img src=./static/images/edit.svg></img>",
+        "bin_btn": "<img src=./static/images/bin.svg></img>"
     },
     {
         "id": 9,
@@ -78,7 +94,9 @@ const tasks = [
         "created_by": 14,
         "assigned_to": 3,
         "description": "skolotāja krēsla kājas kustas (atlīmējušās)",
-        "status": "done"
+        "status": "done",
+        "edit_btn": "<img src=./static/images/edit.svg></img>",
+        "bin_btn": "<img src=./static/images/bin.svg></img>"
     },
     {
         "id": 10,
@@ -87,6 +105,10 @@ const tasks = [
         "created_by": 15,
         "assigned_to": 3,
         "description": "skapim nedarbojas slēdzene",
-        "status": "undone"
-    }
+        "status": "undone",
+        "edit_btn": "<img src=./static/images/edit.svg></img>",
+        "bin_btn": "<img src=./static/images/bin.svg></img>"
+    },
 ];
+
+
