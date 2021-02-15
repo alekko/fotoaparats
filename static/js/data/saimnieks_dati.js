@@ -45,8 +45,9 @@ function tableFromJson() {
             }
             else if (j == 5) {
                 var labot = "<button id=" + i + "><img src='./static/images/labot.svg'></button>"
+                var dzest = "<button id=" + i + "><img src='./static/images/dzest.svg'></button>"
                 var tabCell = tr.insertCell(-1);
-                tabCell.innerHTML = labot;
+                tabCell.innerHTML = labot + " " + dzest;
             }
             else {
                 var tabCell = tr.insertCell(-1);
