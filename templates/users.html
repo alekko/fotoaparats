@@ -1,17 +1,6 @@
-<!DOCTYPE html>
-<html>
+{% extends 'layout.html' %}
 
-<head>
-    <title>Lietotāji</title>
-    <script src="./static/js/data/users.js"></script>
-    <script src="./static/js/data/saimnieks_dati.js"></script>
-    <script src="./static/js/data/roles.js"></script>
-    <link type="text/css" rel="stylesheet" href="./static/css/lietotaji.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <meta charset="utf-8">
-</head>
-
-<body onload=tableFromJson()>
+{% block content %}
     <div class="row">
         <div class="saimnieks">Inguss Zariņš</div>
         <div class="skaidrojums">(SAIMNIEKS)</div>
@@ -21,7 +10,7 @@
 
             <button class="pogaiziet">IZIET</button>
         </div>
-        <img src="./static/images/worker.svg" class="bilde">
+        <img src="../static/images/worker.svg" class="bilde">
         <span class="taisnsturis">
             <input type="text" class="ievadvards teksts" value="VĀRDS">
             <input type="text" class="ievadvards teksts" value="UZVĀRDS">
@@ -59,10 +48,10 @@
                     </td>
                     <td class="kolona">
                         <button>
-                            <img src="./static/images/labot.svg">
+                            <img src="../static/images/labot.svg">
                         </button>
                         <button>
-                            <img src="./static/images/dzest.svg">
+                            <img src="../static/images/dzest.svg">
                         </button>
                     </td>
                 </tr>
@@ -82,10 +71,10 @@
                     </td>
                     <td class="kolona">
                         <button>
-                            <img src="./static/images/labot.svg">
+                            <img src="../static/images/labot.svg">
                         </button>
                         <button>
-                            <img src="./static/images/dzest.svg">
+                            <img src="../static/images/dzest.svg">
                         </button>
                     </td>
                 </tr>
@@ -104,10 +93,10 @@
                         </select>
                     </td>
                     <td class="kolona"><button>
-                            <img src="./static/images/labot.svg">
+                            <img src="../static/images/labot.svg">
                         </button>
                         <button>
-                            <img src="./static/images/dzest.svg">
+                            <img src="../static/images/dzest.svg">
                         </button>
                     </td>
                 </tr>
@@ -127,10 +116,10 @@
                     </td>
                     <td class="kolona">
                         <button>
-                            <img src="./static/images/labot.svg">
+                            <img src="../static/images/labot.svg">
                         </button>
                         <button>
-                            <img src="./static/images/dzest.svg">
+                            <img src="../static/images/dzest.svg">
                         </button>
                     </td>
                 </tr>
@@ -150,10 +139,10 @@
                     </td>
                     <td class="kolona">
                         <button>
-                            <img src="./static/images/labot.svg">
+                            <img src="../static/images/labot.svg">
                         </button>
                         <button>
-                            <img src="./static/images/dzest.svg">
+                            <img src="../static/images/dzest.svg">
                         </button>
                     </td>
                 </tr>
@@ -161,6 +150,4 @@
             <div id="showData"></div>
         </span>
     </div>
-</body>
-
-</html>
+{% endblock %}
