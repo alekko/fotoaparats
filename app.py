@@ -36,5 +36,5 @@ def datubazes_tests():
 
   return str(lietotaji)
 
-if __name__ == '__main__':
-  app.run(host='0.0.0.0', port=8080) # This line is required to run Flask on repl.it
+
+app.run(host='0.0.0.0', port=8080) # This line is required to run Flask on repl.it
