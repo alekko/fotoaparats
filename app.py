@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request, jsonify
 from flask_cors import CORS
-from replit import db
 
 app = Flask(__name__)
 CORS(app)
@@ -38,3 +37,4 @@ def datubazes_tests():
 
 
 app.run(host='0.0.0.0', port=8080) # This line is required to run Flask on repl.it
+from replit import db
