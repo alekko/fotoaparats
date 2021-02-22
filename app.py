@@ -37,12 +37,5 @@ def datubazes_tests():
 
   return str(lietotaji)
 
-
-def init_db():
-  db.init_app(app)
-  db.app = app
-
 if __name__ == '__main__':
-  init_db()
-  app.run(debug=True)
   app.run(host='0.0.0.0', port=8080) # This line is required to run Flask on repl.it
