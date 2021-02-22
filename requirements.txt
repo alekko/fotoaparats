@@ -3,4 +3,3 @@ gunicorn
 flask-cors
 replitdb
 requests
-python
