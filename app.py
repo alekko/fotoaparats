@@ -25,5 +25,13 @@ def problem():
 def all_tasks():
   return render_template('all_tasks.html')
 
+@app.route('/datubazes_tests')
+def pievienot_lietotaju():
+  jauns_lietotajs = [{"vards": "Pēteris"}]
+  db['lietotaji'] = jauns_lietotajs
+  lietotaji = db.get('lietotaji', [])
+
+  return str(lietotaji)
+
 if __name__ == '__main__':
   app.run(host='0.0.0.0', port=8080) # This line is required to run Flask on repl.it
