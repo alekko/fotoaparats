@@ -3,7 +3,6 @@ from flask_cors import CORS
 from replit import db
 
 app = Flask(__name__)
-
 CORS(app)
 
 @app.route('/')
