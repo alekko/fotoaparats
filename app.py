@@ -27,8 +27,11 @@ def all_tasks():
 
 @app.route('/datubazes_tests')
 def datubazes_tests():
-  jauns_lietotajs = [{"vards": "Pēteris"}]
-  db['lietotaji'] = jauns_lietotajs
+  vardnica = dict()
+  vardnica["vards"] = "Vards"
+  vardnica["uzvards"] = "Uzvards"
+  db['lietotaji'] = vardnica
+
   lietotaji = db.get('lietotaji', [])
 
   return str(lietotaji)
