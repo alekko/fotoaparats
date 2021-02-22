@@ -26,7 +26,7 @@ def all_tasks():
   return render_template('all_tasks.html')
 
 @app.route('/datubazes_tests')
-def pievienot_lietotaju():
+def datubazes_tests():
   jauns_lietotajs = [{"vards": "Pēteris"}]
   db['lietotaji'] = jauns_lietotajs
   lietotaji = db.get('lietotaji', [])
