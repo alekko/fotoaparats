@@ -1,5 +1,6 @@
 Flask
 gunicorn
 flask-cors
-replit
+replitdb
 requests
+python

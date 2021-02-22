@@ -4,9 +4,9 @@ authors = ["Your Name"]
 name = "root"
 version = "0.0.0"
 [tool.poetry.dependencies]
-python = "^2.7"
+python = "3.0"
 flask = "*"
 gunicorn = "*"
 flask-cors = "*"
 requests = "*"
-replit = "1.0.0"
+replitdb = "*"
