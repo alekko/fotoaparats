@@ -1,0 +1,11 @@
+[tool]
+[tool.poetry]
+authors = ["Your Name"]
+name = "root"
+version = "0.0.0"
+[tool.poetry.dependencies]
+flask = "*"
+gunicorn = "*"
+flask-cors = "*"
+replit = "*"
+requests = "*"
