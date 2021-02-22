@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, jsonify
 from flask_cors import CORS
-from replit import db
+from replit import db as database
 
 app = Flask(__name__)
 CORS(app)
@@ -30,9 +30,9 @@ def datubazes_tests():
   vardnica = dict()
   vardnica["vards"] = "Vards"
   vardnica["uzvards"] = "Uzvards"
-  db['lietotaji'] = vardnica
+  database['lietotaji'] = vardnica
 
-  lietotaji = db.get('lietotaji', [])
+  lietotaji = database.get('lietotaji', [])
 
   return str(lietotaji)
 
