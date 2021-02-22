@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, jsonify
 from flask_cors import CORS
-from replit import db as database
+import replit
 
 app = Flask(__name__)
 CORS(app)
@@ -27,6 +27,7 @@ def all_tasks():
 
 @app.route('/datubazes_tests')
 def datubazes_tests():
+  database = replit.db
   vardnica = dict()
   vardnica["vards"] = "Vards"
   vardnica["uzvards"] = "Uzvards"
