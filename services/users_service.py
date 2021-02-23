@@ -13,9 +13,7 @@ class users_service:
 
     def add_user(self, new_user):
         existing_users = self.db.get('users', [])
-
         new_user['id'] = len(existing_users) + 1
-
         self.db['users'] = existing_users + [new_user]
 
     def delete_user(self, user_id):
