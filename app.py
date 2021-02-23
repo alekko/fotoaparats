@@ -22,8 +22,8 @@ def new_user():
 
   new_user = {
     'name': request.form.get('name'),
-    'surname': request.form.get('role'),
-    'role': request.form.get('surname'),
+    'surname': request.form.get('surname'),
+    'role': request.form.get('role'),
     'password': request.form.get('password')
   }
 
