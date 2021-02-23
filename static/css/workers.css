@@ -27,7 +27,7 @@ body {
     font-size: 36px;
     line-height: 42px;
 
-    color: #5D576B;   
+    color: #5D576B;
 }
 .skaidrojums{
     /* (Elektriķis) */
@@ -43,7 +43,7 @@ body {
     color: #5D576B;
 }
 .pogaiziet{
-    
+
     width: 72px;
     height: 25px;
     background: #5D576B;
@@ -82,7 +82,7 @@ body {
     border-collapse: separate;
 }
 .tabula {
-    width: 100%;
+    width: 95%;
 }
 .saraksts th {
     font-size: 18px;
