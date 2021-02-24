@@ -1,27 +1,17 @@
-<!DOCTYPE html>
-<html>
+{% extends 'layout.html' %}
 
-<head>
-  <meta charset='utf-8'>
-  <!--meta http-equiv='X-UA-Compatible' content='IE=edge'-->
-  <title>Visi darbi</title>
-  <!--meta name='viewport' content='width=device-width, initial-scale=1'>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"-->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  <link rel='stylesheet' href='./static/css/workers.css'>
-  <script src='main.js'></script>
-</head>
-
-<body>
+{% block content %}
   <div class="row">
     <div class="saimnieks">Inguss Zariņš</div>
     <div class="skaidrojums">(SAIMNIEKS)</div>
-    <div class="poganoviet"><button class="pogauzd"
-        onclick="window.location.href='./saimnieks_dati.html'">LIETOTĀJI</button>
-      <button class="pogaiziet">IZIET</button>
+    <div class="poganoviet">
+        <button class="pogauzd">
+            <a href="/all_tasks">LIETOTĀJI
+            </a>
+        </button>
+        <button class="pogaiziet">IZIET</button>
     </div>
-    <div class="attels"><img src="./static/images/worker.svg"></div>
+    <div class="attels"><img src="../static/images/worker.svg"></div>
     <table class="tabula saraksts">
       <thead>
         <tr>
@@ -67,7 +57,4 @@
       </tbody>
     </table>
   </div>
-
-</body>
-
-</html>
+{% endblock %}
