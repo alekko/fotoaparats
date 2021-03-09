@@ -1,29 +1,37 @@
 <!DOCTYPE html>
 <html>
     <head>
-      <meta charset='UTF-8'>
-      <title>Fotoaparāts</title>
+        <meta charset='UTF-8'>
+        <title>Fotoaparāts</title>
 
-      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
-      <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <script src="../static/js/libs/jquery.js"></script>
+        <script src="../static/js/libs/popper.js"></script>
+        <script src="../static/js/libs/bootstrap.min.js"></script>
 
-      <script src="../static/js/main.js"></script>
-      <script src="../static/js/users.js"></script>
-      <script src="../static/js/data/roles.js"></script>
-      <script src="../static/js/data/rooms.js"></script>
-      <script src="../static/js/data/saimnieks_dati.js"></script>
-      <script src="../static/js/data/tasks.js"></script>
-      <script src="../static/js/data/users.js"></script>
+        <script src="../static/js/main.js"></script>
+        <script src="../static/js/users.js"></script>
+        <script src="../static/js/data/roles.js"></script>
+        <script src="../static/js/data/rooms.js"></script>
+        <script src="../static/js/data/saimnieks_dati.js"></script>
+        <script src="../static/js/data/tasks.js"></script>
 
-      <link type="text/css" rel='stylesheet' href='../static/css/main.css'>
-      <link type="text/css" rel='stylesheet' href='../static/css/problem.css'>
-      <link type="text/css" rel='stylesheet' href='../static/css/login.css'>
-      <link type="text/css" rel='stylesheet' href="../static/css/lietotaji.css">
-      <link type="text/css" rel='stylesheet' href='../static/css/workers.css'>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+        <link type="text/css" rel='stylesheet' href='../static/css/bootstrap.css'>
+        <link type="text/css" rel='stylesheet' href='../static/css/font-awesome.css'>
+
+        <link type="text/css" rel='stylesheet' href='../static/css/main.css'>
+        <link type="text/css" rel='stylesheet' href='../static/css/problem.css'>
+        <link type="text/css" rel='stylesheet' href='../static/css/login.css'>
+        <link type="text/css" rel='stylesheet' href="../static/css/lietotaji.css">
+        <link type="text/css" rel='stylesheet' href='../static/css/workers.css'>
+
     </head>
   <body>
-    {% block content %}
-    {% endblock %}
+    <div class="container-fluid">
+        {% include 'flash_messages.html' %}
+        {% block content %}
+        {% endblock %}
+    </div>
   </body>
 </html>

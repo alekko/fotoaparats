@@ -59,7 +59,8 @@ body {
     right: 6%;
     color: #A0D9CB;
 }
-.pogaizietw{
+
+.pogaizietw {
     position: absolute;
     width: 72px;
     height: 25px;
@@ -81,9 +82,11 @@ body {
     border-spacing: 0 5px;
     border-collapse: separate;
 }
+
 .tabula {
     width: 95%;
 }
+
 .saraksts th {
     font-size: 18px;
     font-weight: normal;
