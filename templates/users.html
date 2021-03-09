@@ -1,60 +1,60 @@
 {% extends 'layout.html' %}
 
 {% block content %}
-    <div class="row">
-        <div class="saimnieks">Inguss Zariņš</div>
-        <div class="skaidrojums">(SAIMNIEKS)</div>
-        <div class="poganoviet">
-            <button class="pogauzd">
-                <a href="/my_tasks">UZ UZDEVUMIEM</a>
-            </button>
-            <button class="pogaiziet">IZIET</button>
-        </div>
-        <img src="../static/images/worker.svg" class="bilde">
-        <div class="taisnsturis">
-            <form id="new_user_form">
-                <input type="text" class="ievadvards teksts" placeholder="VĀRDS" name="name">
-                <input type="text" class="ievadvards teksts" placeholder="UZVĀRDS" name="surname">
-                <input type="text" class="ievadvards teksts" placeholder="PAROLE" name="password">
-                <select class="loma" name="role">
-                    <option>LOMA</option>
-                    <option value="saimnieks">Saimnieks</option>
-                    <option value="darbinieks">Darbinieks</option>
-                    <option value="santehniķis">Santehniķis</option>
-                    <option value="elektriķis">Elektriķis</option>
-                    <option value="galdnieks">Galdnieks</option>
-                </select>
-                <button class="pogapievienot" type="submit">PIEVIENOT</button>
-            </form>
-            <table class="tabula" id="users_table">
-                <tr class="pirmarinda">
-                    <th class="kolona">ID</th>
-                    <th class="kolona">VĀRDS</th>
-                    <th class="kolona">UZVĀRDS</th>
-                    <th class="kolona">PAROLE</th>
-                    <th class="kolona">LOMA</th>
-                    <th class="kolona">LABOT</th>
-                </tr>
-                {% for user in users %}
-                    <tr class="visasrindas" id="user-row-{{ user['id'] }}">
-                        <td class="kolona">{{ user['id'] }}</td>
-                        <td class="kolona">{{ user['name'] }}</td>
-                        <td class="kolona">{{ user['surname'] }}</td>
-                        <td class="kolona">{{ user['password'] }}</td>
-                        <td class="kolona">{{ user['role'] }}</td>
-                        <td class="kolona">
-                            <button>
-                                <img src="../static/images/labot.svg">
-                            </button>
-                            <button onclick="deleteUser({{ user['id'] }});">
-                                <img src="../static/images/dzest.svg">
-                            </button>
-                        </td>
-                    </tr>
-                {% endfor %}
-
-                </tr>
-            </table>
-        </div>
+<div class="row">
+    <div class="saimnieks">Inguss Zariņš</div>
+    <div class="skaidrojums">(SAIMNIEKS)</div>
+    <div class="poganoviet">
+        <button class="pogauzd">
+            <a href="/all_tasks">UZ UZDEVUMIEM</a>
+        </button>
+        <button class="pogaiziet">IZIET</button>
     </div>
+    <img src="../static/images/worker.svg" class="bilde">
+    <div class="taisnsturis">
+        <form id="new_user_form">
+            <input type="text" class="ievadvards teksts" placeholder="VĀRDS" name="name">
+            <input type="text" class="ievadvards teksts" placeholder="UZVĀRDS" name="surname">
+            <input type="text" class="ievadvards teksts" placeholder="PAROLE" name="password">
+            <select class="loma" name="role">
+                <option>LOMA</option>
+                <option value="saimnieks">Saimnieks</option>
+                <option value="darbinieks">Darbinieks</option>
+                <option value="santehniķis">Santehniķis</option>
+                <option value="elektriķis">Elektriķis</option>
+                <option value="galdnieks">Galdnieks</option>
+            </select>
+            <button class="pogapievienot" type="submit">PIEVIENOT</button>
+        </form>
+        <table class="tabula" id="users_table">
+            <tr class="pirmarinda">
+                <th class="kolona">ID</th>
+                <th class="kolona">VĀRDS</th>
+                <th class="kolona">UZVĀRDS</th>
+                <th class="kolona">PAROLE</th>
+                <th class="kolona">LOMA</th>
+                <th class="kolona">LABOT</th>
+            </tr>
+            {% for user in users %}
+            <tr class="visasrindas" id="user-row-{{ user['id'] }}">
+                <td class="kolona">{{ user['id'] }}</td>
+                <td class="kolona">{{ user['name'] }}</td>
+                <td class="kolona">{{ user['surname'] }}</td>
+                <td class="kolona">{{ user['password'] }}</td>
+                <td class="kolona">{{ user['role'] }}</td>
+                <td class="kolona">
+                    <button>
+                        <img src="../static/images/labot.svg">
+                    </button>
+                    <button onclick="deleteUser({{ user['id'] }});">
+                        <img src="../static/images/dzest.svg">
+                    </button>
+                </td>
+            </tr>
+            {% endfor %}
+
+            </tr>
+        </table>
+    </div>
+</div>
 {% endblock %}

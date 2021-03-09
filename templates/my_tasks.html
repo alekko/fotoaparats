@@ -1,58 +1,58 @@
 {% extends 'layout.html' %}
 
 {% block content %}
-  <div class="row">
-    <div class="saimnieks">Aivars Liepa</div>
-    <div class="skaidrojums">(ELEKTRIĶIS)</div>
-    <button class="pogaizietw">IZIET</button>
-    <div class="attels">
-      <img src="../static/images/workers.svg">
-    </div>
-    <div>
-      <table class="tabula saraksts">
-        <thead>
-          <tr>
-            <th>DATUMS</th>
-            <th>KABINETS</th>
-            <th>PROBLĒMU PIETEICA</th>
-            <th> APRAKSTS</th>
-            <th>✅ </th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="undone">
-            <td>10-10-2020</td>
-            <td class="vidus">234</td>
-            <td>Sergejs Zembkovskis</td>
-            <td>Nedeg apgaismojums pie tāfeles (nav lampiņu)</td>
-            <td class="vidus"><button class="editb">🔲</button></td>
-          </tr>
-          <tr class="undone">
-            <td>10-09-2020</td>
-            <td class="vidus">4507</td>
-            <td>Inese Zariņa</td>
-            <td>Kabinetā nedeg 4 spuldzes</td>
-            <td class="vidus"><button class="editb">🔲</button>
-            </td>
-          </tr>
-          <tr class="undone">
-            <td>10-10-2020</td>
-            <td class="vidus">234</td>
-            <td></td>
-            <td>Nedeg apgaismojums pie tāfeles (nav lampiņu)</td>
-            <td class="vidus"><button class="editb">🔲</button>
-            </td>
-          </tr>
-          <tr class="undone">
-            <td>10-09-2020</td>
-            <td class="vidus">4507</td>
-            <td></td>
-            <td>Kabinetā nedeg 4 spuldzes</td>
-            <td class="vidus"><button class="editb">🔲</button>
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+<div class="row">
+  <div class="saimnieks">Aivars Liepa</div>
+  <div class="skaidrojums">(ELEKTRIĶIS)</div>
+  <button class="pogaizietw"><a href="/">IZIET</a></button>
+  <div class="attelsall">
+    <img src="../static/images/workers.svg">
   </div>
+  <div>
+    <table class="tabula saraksts">
+      <thead>
+        <tr>
+          <th>DATUMS</th>
+          <th>KABINETS</th>
+          <th>PROBLĒMU PIETEICA</th>
+          <th> APRAKSTS</th>
+          <th>✅ </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="undone">
+          <td>10-10-2020</td>
+          <td class="vidus">234</td>
+          <td>Sergejs Zembkovskis</td>
+          <td>Nedeg apgaismojums pie tāfeles (nav lampiņu)</td>
+          <td class="vidus"><button class="editb">🔲</button></td>
+        </tr>
+        <tr class="undone">
+          <td>10-09-2020</td>
+          <td class="vidus">4507</td>
+          <td>Inese Zariņa</td>
+          <td>Kabinetā nedeg 4 spuldzes</td>
+          <td class="vidus"><button class="editb">🔲</button>
+          </td>
+        </tr>
+        <tr class="undone">
+          <td>10-10-2020</td>
+          <td class="vidus">234</td>
+          <td></td>
+          <td>Nedeg apgaismojums pie tāfeles (nav lampiņu)</td>
+          <td class="vidus"><button class="editb">🔲</button>
+          </td>
+        </tr>
+        <tr class="undone">
+          <td>10-09-2020</td>
+          <td class="vidus">4507</td>
+          <td></td>
+          <td>Kabinetā nedeg 4 spuldzes</td>
+          <td class="vidus"><button class="editb">🔲</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
 {% endblock %}

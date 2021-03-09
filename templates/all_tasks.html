@@ -1,60 +1,60 @@
 {% extends 'layout.html' %}
 
 {% block content %}
-  <div class="row">
-    <div class="saimnieks">Inguss Zariņš</div>
-    <div class="skaidrojums">(SAIMNIEKS)</div>
-    <div class="poganoviet">
-        <button class="pogauzd">
-            <a href="/all_tasks">LIETOTĀJI
-            </a>
-        </button>
-        <button class="pogaiziet">IZIET</button>
-    </div>
-    <div class="attels"><img src="../static/images/worker.svg"></div>
-    <table class="tabula saraksts">
-      <thead>
-        <tr>
-          <th>DATUMS</th>
-          <th>KABINETS</th>
-          <th>KAM UZDOTS</th>
-          <th> APRAKSTS</th>
-          <th>🔄 </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr class="undone">
-          <td>10-10-2020</td>
-          <td class="vidus">234</td>
-          <td>Elektriķis</td>
-          <td>Nedeg apgaismojums pie tāfeles (nav lampiņu)</td>
-          <td class="vidus"><button class="editb">🔲</button></td>
-        </tr>
-        <tr class="pabeigts">
-          <td>10-09-2020</td>
-          <td class="vidus">4507</td>
-          <td>Elektriķis</td>
-          <td>Kabinetā nedeg 4 spuldzes</td>
-          <td class="vidus"><button class="editb">🔄</button>
-          </td>
-        </tr>
-        <tr class="undone">
-          <td>10-10-2020</td>
-          <td class="vidus">234</td>
-          <td>Galdnieks</td>
-          <td>Salūzis krēsls</td>
-          <td class="vidus"><button class="editb">🔲</button>
-          </td>
-        </tr>
-        <tr class="undone">
-          <td>10-09-2020</td>
-          <td class="vidus">4507</td>
-          <td>Santehniķis</td>
-          <td>Pil krāns</td>
-          <td class="vidus"><button class="editb">🔲</button>
-          </td>
-        </tr>
-      </tbody>
-    </table>
+<div class="row">
+  <div class="saimnieks">Inguss Zariņš</div>
+  <div class="skaidrojums">(SAIMNIEKS)</div>
+  <div class="poganoviet">
+    <button class="pogauzd">
+      <a href="/users">LIETOTĀJI
+      </a>
+    </button>
+    <button class="pogaiziet">IZIET</button>
   </div>
+  <div class="attelsall"><img src="../static/images/worker.svg"></div>
+  <table class="tabula saraksts">
+    <thead>
+      <tr>
+        <th>DATUMS</th>
+        <th>KABINETS</th>
+        <th>KAM UZDOTS</th>
+        <th> APRAKSTS</th>
+        <th>🔄 </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="undone">
+        <td>10-10-2020</td>
+        <td class="vidus">234</td>
+        <td>Elektriķis</td>
+        <td>Nedeg apgaismojums pie tāfeles (nav lampiņu)</td>
+        <td class="vidus"><button class="editb">🔲</button></td>
+      </tr>
+      <tr class="pabeigts">
+        <td>10-09-2020</td>
+        <td class="vidus">4507</td>
+        <td>Elektriķis</td>
+        <td>Kabinetā nedeg 4 spuldzes</td>
+        <td class="vidus"><button class="editb">🔄</button>
+        </td>
+      </tr>
+      <tr class="undone">
+        <td>10-10-2020</td>
+        <td class="vidus">234</td>
+        <td>Galdnieks</td>
+        <td>Salūzis krēsls</td>
+        <td class="vidus"><button class="editb">🔲</button>
+        </td>
+      </tr>
+      <tr class="undone">
+        <td>10-09-2020</td>
+        <td class="vidus">4507</td>
+        <td>Santehniķis</td>
+        <td>Pil krāns</td>
+        <td class="vidus"><button class="editb">🔲</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 {% endblock %}
