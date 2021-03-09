@@ -82,7 +82,7 @@ body {
     border-collapse: separate;
 }
 .tabula {
-    width: 95%;
+    width: 100%;
 }
 .saraksts th {
     font-size: 18px;
@@ -116,7 +116,7 @@ body {
 .vidus {
     text-align: center;
 }
-.pogauzd {
+.pogauzdw {
     /* LIETOTĀJI */
     font-family: Roboto;
     font-style: normal;

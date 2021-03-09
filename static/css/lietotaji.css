@@ -62,7 +62,7 @@ body {
     right: 6%;
 }
 
-.pogaiziet{
+.pogaizietl{
 
     width: 72px;
     height: 25px;
@@ -80,8 +80,9 @@ body {
     color: #A0D9CB;
 }
 
-.tabula {
+.tabulal {
     position: relative;
+    width: 95%;
     margin-left: 20px;
     font-family: Roboto;
     font-style: normal;
