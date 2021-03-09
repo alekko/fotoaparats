@@ -16,6 +16,15 @@ class users_service:
         new_user['id'] = len(existing_users) + 1
         self.db['users'] = existing_users + [new_user]
 
+    def edit_user(self, edited_user):
+        existing_users = self.db.get('users', [])
+
+        for key, user in enumerate(existing_users):
+            if int(existing_users[key]['id']) == int(edited_user['id']):
+                existing_users[key] = edited_user
+
+        self.db['users'] = existing_users
+
     def delete_user(self, user_id):
         existing_users = self.db.get('users', [])
         left_users = []

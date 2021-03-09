@@ -8,6 +8,20 @@ html, body {
   width:200px;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+    color: inherit;
+}
+
+.edit-user:hover {
+ cursor: pointer;
+}
+
+
 .item {
   background: #ff9494;
   padding: 16px 12px 8px;

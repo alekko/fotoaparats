@@ -120,11 +120,11 @@ body {
     margin-left: 2vw;
 }
 
-.bilde{
+.bilde {
     margin-top: 10vh;
     display: block;
     position: relative;
-    position: left;
+    margin: 0 auto;
 }
 
 .pogapievienot{
