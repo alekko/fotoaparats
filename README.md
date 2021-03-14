@@ -1,4 +1,4 @@
-# IT Izglītības fonda - start(it) ietvaros komands 'fotoaparāts' izstrādāta darbu uzskaites sistēma.
+# IT Izglītības fonda - start(it) ietvaros komandas 'fotoaparāts' izstrādāta darbu uzskaites sistēma.
 
 Sākums
 ----------
